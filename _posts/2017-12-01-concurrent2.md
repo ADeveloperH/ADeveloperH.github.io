@@ -156,3 +156,23 @@ public class TestJava {
 
 从直观上理解，这段程序应该只会输出100，ready的值是不会打印出来的。实际上，如果多次执行上面代码的话，可能会出现多种不同的结果，下面是我运行出来的某两次的结果：
 
+![](https://raw.githubusercontent.com/ADeveloperH/ADeveloperH.github.io/master/assets/20171201/06.png)
+
+![](https://raw.githubusercontent.com/ADeveloperH/ADeveloperH.github.io/master/assets/20171201/05.png)
+
+当然，这个结果也只能说是有可能是可见性造成的，当写线程（WriterThread）设置ready=true后，读线程（ReaderThread）看不到修改后的结果，所以会打印false，对于第二个结果，也就是执行if (!ready)时还没有读取到写线程的结果，但执行System.out.println(ready)时读取到了写线程执行的结果。不过，这个结果也有可能是线程的交替执行所造成的。Java 中可通过Synchronized或Volatile来保证可见性，具体细节会在后续的文章中分析。
+
+## 5 有序性 ##
+
+为了提高性能，编译器和处理器可能会对指令做重排序。重排序可以分为三种：
+
+1. 编译器优化的重排序。编译器在不改变单线程程序语义的前提下，可以重新安排语句的执行顺序。
+2. 指令级并行的重排序。现代处理器采用了指令级并行技术（Instruction-Level Parallelism， ILP）来将多条指令重叠执行。如果不存在数据依赖性，处理器可以改变语句对应机器指令的执行顺序。
+3. 内存系统的重排序。由于处理器使用缓存和读/写缓冲区，这使得加载和存储操作看上去可能是在乱序执行。
+
+我们可以直接参考一下JSR 133 中对重排序问题的描述：
+
+![](https://raw.githubusercontent.com/ADeveloperH/ADeveloperH.github.io/master/assets/20171201/07.png)
+
+先看上图中的左源码部分，从源码来看，要么指令 1 先执行要么指令 3先执行。如果指令 1 先执行，r2不应该能看到指令 4 中写入的值。如果指令 3 先执行，r1不应该能看到指令 2 写的值。但是运行结果却可能出现r2==2，r1==1的情况，这就是“重排序”导致的结果。上图右边部分即是一种可能出现的合法的编译结果，编译后，指令1和指令2的顺序可能就互换了。因此，才会出现r2==2，r1==1的结果。Java 中也可通过Synchronized或Volatile来保证顺序性。
+
