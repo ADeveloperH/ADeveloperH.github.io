@@ -111,3 +111,48 @@ public class TestJava {
 ## 4 可见性 ##
 
 要理解可见性，需要先对JVM的内存模型有一定的了解，JVM的内存模型与操作系统类似，如图所示：
+
+![](https://raw.githubusercontent.com/ADeveloperH/ADeveloperH.github.io/master/assets/20171201/04.png)
+
+从这个图中我们可以看出，`每个线程都有一个自己的工作内存`（相当于CPU高级缓冲区，这么做的目的还是在于进一步缩小存储系统与CPU之间速度的差异，提高性能），对于共享变量，线程每次读取的是工作内存中共享变量的副本，写入的时候也直接修改工作内存中副本的值，然后在某个时间点上再将工作内存与主内存中的值进行同步。这样导致的问题是，如果线程1对某个变量进行了修改，线程2却有可能看不到线程1对共享变量所做的修改。通过下面这段程序我们可以演示一下不可见的问题：
+
+```java
+public class TestJava {
+    private static boolean ready;
+    private static int number;
+
+    private static class WriterThread extends Thread {
+        public void run() {
+            try {
+                Thread.sleep(10);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            number = 100;
+            ready = true;
+        }
+    }
+
+    private static class ReaderThread extends Thread {
+        public void run() {
+            try {
+                Thread.sleep(10);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            if (!ready) {
+                System.out.println(ready);
+            }
+            System.out.println(number);
+        }
+    }
+
+    public static void main(String[] args) {
+        new WriterThread().start();
+        new ReaderThread().start();
+    }
+}
+```
+
+从直观上理解，这段程序应该只会输出100，ready的值是不会打印出来的。实际上，如果多次执行上面代码的话，可能会出现多种不同的结果，下面是我运行出来的某两次的结果：
+
