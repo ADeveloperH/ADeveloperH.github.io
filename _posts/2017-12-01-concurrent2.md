@@ -1,7 +1,7 @@
 ---
 layout: post
 title: java并发编程详解之核心理论
-categories: java知识
+categories: java并发编程
 ---
 <u>【原文链接】(http://www.cnblogs.com/paddix/p/5374810.html)</u>
 

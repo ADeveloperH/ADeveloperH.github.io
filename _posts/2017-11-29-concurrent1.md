@@ -1,7 +1,7 @@
 ---
 layout: post
 title: java并发编程详解之简介
-categories: java知识
+categories: java并发编程
 ---
 ## 1 常用概念 ##
 
