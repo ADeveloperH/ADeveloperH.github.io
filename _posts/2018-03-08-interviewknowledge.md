@@ -5,7 +5,9 @@ categories: 面试知识
 ---
 ## 1 java中==、equals、hashCode的区别 ##
 
-```[弄懂java中”==“、”equals“、”hashCode“]("https://www.jianshu.com/p/efde145f0152")```  
+```
+[弄懂java中”==“、”equals“、”hashCode“]("https://www.jianshu.com/p/efde145f0152")
+```  
 
 [Java 中的 ==, equals 与 hashCode 的区别与联系]("http://blog.csdn.net/justloveyou_/article/details/52464440")  
 
