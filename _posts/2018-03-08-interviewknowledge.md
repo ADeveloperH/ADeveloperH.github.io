@@ -3,7 +3,7 @@ layout: post
 title: java面试小知识
 categories: 面试知识
 ---
-### 1 java中==、equals、hashCode的区别  ###  
+### 1 java中==、equals、hashCode的区别  ###
 
 [弄懂java中”==“、”equals“、”hashCode“]("https://www.jianshu.com/p/efde145f0152")  
 
@@ -13,17 +13,17 @@ categories: 面试知识
 
 ###  2 Java数据类型相关 ###
 
-#### 2.1 int、char、long各占多少字节数 ####  
+#### 2.1 int、char、long各占多少字节数 ####
 
 [Java基本类型占用字节数]("https://www.jianshu.com/p/fd560bc39adb")
 
-#### 2.2 int与integer的区别 ####  
+#### 2.2 int与integer的区别 ####
 
 [int和Integer的区别]("http://blog.csdn.net/haovip123/article/details/52049856")  
 
 [Integer.parseInt("") Integer.valueOf("")和new Integer("")之间的区别]("http://blog.csdn.net/suifeng3051/article/details/52101411")
 
-#### 2.3 String、StringBuffer、StringBuilder ####  
+#### 2.3 String、StringBuffer、StringBuilder ####
 
 [String，StringBuffer，StringBuilder的区别]("https://www.jianshu.com/p/5435cdf1d52e")  
 
@@ -38,7 +38,7 @@ categories: 面试知识
 
 ### 3 java 类相关 ###
 
-### 3.1 抽象类与接口 ###
+#### 3.1 抽象类与接口  ####
 
 [深入理解Java的接口和抽象类]("https://www.cnblogs.com/dolphin0520/p/3811437.html")  
 
@@ -50,4 +50,4 @@ categories: 面试知识
 
 [java提高篇(四)-----理解java的三大特性之多态]("https://www.cnblogs.com/chenssy/p/3372798.html")
 
-### 3.2 成员内部类、静态内部类、局部内部类和匿名内部类 ###
+#### 3.2 成员内部类、静态内部类、局部内部类和匿名内部类 ####
