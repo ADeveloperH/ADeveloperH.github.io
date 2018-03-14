@@ -87,4 +87,14 @@ categories: 面试知识
 
 [java泛型（二）、泛型的内部原理：类型擦除以及类型擦除带来的问题]("http://blog.csdn.net/lonelyroamer/article/details/7868820")   
 
-[闭包（计算机科学）是什么？]("https://www.zhihu.com/question/24084277") 
+#### 3.5 final finally finalize 的区别 ####
+
+[final finally finalize 的区别]("http://www.cnblogs.com/xwdreamer/archive/2012/04/17/2454178.html") 
+
+#### 3.6 序列化的方式 Serializable 和Parcelable 的区别 ####
+
+[序列化与反序列化之Parcelable和Serializable浅析]("http://blog.csdn.net/javazejian/article/details/52665164")  
+
+[Android 进阶6：两种序列化方式 Serializable 和 Parcelable]("http://blog.csdn.net/u011240877/article/details/72455715")  
+
+[Parceable和Serializable都有啥区别？]("https://zhuanlan.zhihu.com/p/27193528") 
