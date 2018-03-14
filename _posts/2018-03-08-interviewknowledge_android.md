@@ -5,7 +5,8 @@ categories: 面试知识
 ---
 ### 1 四大组件相关 ###
 
-#### 1.1 Activity相关知识点 ####
+#### 1.1 Activity相关知识点 ####  
+
 
 > Activity 生命周期
 
