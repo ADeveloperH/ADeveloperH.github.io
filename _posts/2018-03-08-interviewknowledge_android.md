@@ -59,4 +59,12 @@ categories: 面试知识
 
 #### 1.4 BroadcastReceiver广播相关知识点  ####
 
-[Fragment 各种状态下的生命周期](https://github.com/MaYunFei/FragmentLifeCycleDemo)  
+[Android开发之BroadcastReceiver详解](http://blog.csdn.net/fengyuzhengfan/article/details/38414625)  
+
+[基础总结篇之五：BroadcastReceiver应用详解](http://blog.csdn.net/liuhe688/article/details/6955668)  
+
+[Android BroadcastReceiver使用详解](https://www.jianshu.com/p/f348f6d7fe59)  
+
+[之前写的（参考使用）](http://blog.csdn.net/oonullpointeralex/article/details/48015107)
+
+  
