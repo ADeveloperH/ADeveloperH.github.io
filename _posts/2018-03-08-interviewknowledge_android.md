@@ -60,3 +60,5 @@ categories: 面试知识
 #### 1.4 BroadcastReceiver广播相关知识点  ####
 
 [Fragment 各种状态下的生命周期]("https://github.com/MaYunFei/FragmentLifeCycleDemo")  
+
+
