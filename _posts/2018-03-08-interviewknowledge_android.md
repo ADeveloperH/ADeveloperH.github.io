@@ -67,4 +67,24 @@ categories: 面试知识
 
 [之前写的（参考使用）](http://blog.csdn.net/oonullpointeralex/article/details/48015107)
 
-  
+#### 1.5 ContentProvider 相关知识点 #### 
+
+[ContentProvider实例详解](http://blog.csdn.net/amazing7/article/details/51324022)  
+
+[ContentProvider实例详解](http://blog.csdn.net/amazing7/article/details/51324022)  
+
+[ContentProvider详解](http://www.dxjia.cn/2016/01/27/ContentProvider/)  
+
+[请介绍下ContentProvider是如何实现数据共享的？](http://blog.csdn.net/f330656066/article/details/7362313)
+
+### 2 Android小知识  ###
+
+#### 2.1 Android中Context ####
+
+[Android Context 上下文 你必须知道的一切](http://blog.csdn.net/lmj623565791/article/details/40481055)  
+
+[Application context和Activity context的区别](https://www.jianshu.com/p/4f97baa0e8f7)  
+
+[Android源码分析-全面理解Context](http://blog.csdn.net/singwhatiwanna/article/details/21829971)  
+
+[Context都没弄明白，还怎么做Android开发？](https://www.jianshu.com/p/94e0f9ab3f1d)  
