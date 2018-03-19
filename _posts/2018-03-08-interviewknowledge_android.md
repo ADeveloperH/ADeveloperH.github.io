@@ -87,4 +87,38 @@ categories: 面试知识
 
 [Android源码分析-全面理解Context](http://blog.csdn.net/singwhatiwanna/article/details/21829971)  
 
+[Context都没弄明白，还怎么做Android开发？](https://www.jianshu.com/p/94e0f9ab3f1d) 
+
+#### 2.2 如何导入外部数据库? #### 
+
+[Android 存储路径相关知识小结](http://blog.csdn.net/liujigangisgood/article/details/40044709)  
+
+[Android如何导入已有的外部数据库](http://www.cnblogs.com/xiaowenji/archive/2011/01/03/1925014.html) 
+ 
+[Android导入外部数据库](http://www.voidcn.com/article/p-twrnkkge-km.html) 
+ 
+#### 2.3 接口与回调的理解 ####
+
+[Java回调的原理与实现](https://www.jianshu.com/p/67190bdce647)  
+
+[android中的回调](http://blog.csdn.net/xsf50717/article/details/50520462)   
+
+[Android 回调机制理解](http://howietian.top/2017/04/16/Android-%E5%9B%9E%E8%B0%83%E6%9C%BA%E5%88%B6%E7%90%86%E8%A7%A3/)  
+
+### 3 Android中View ###
+
+#### 3.1 AlertDialog、PopupWindow、Activity区别 ####
+
+[Android新手入门2016（13）--阻塞对话框PopupWindow](http://www.bijishequ.com/detail/9208)  
+
+[Dialog和PopUpWindow的抉择](https://www.jianshu.com/p/e588d74b5c9f)  
+
+[关于坑爹的PopupWindow的“阻塞”争议问题：Android没有真正的“阻塞式”对话框](http://blog.csdn.net/zhengxiaoyao0716/article/details/48768407)  
+
+[对话框：阻塞式PopupWindow 和非阻塞AlertDialog](http://blog.csdn.net/lang791534167/article/details/37706293)  
+
+[Android AlertDialog和PopupWindow使用和区别](http://blog.csdn.net/android_cmos/article/details/51223776)  
+
+[安卓开发中Dialog和PopupWindow和新建Activity的使用场景有什么区别?](https://www.zhihu.com/question/37321437)  
+
 [Context都没弄明白，还怎么做Android开发？](https://www.jianshu.com/p/94e0f9ab3f1d)  
