@@ -122,3 +122,31 @@ categories: 面试知识
 [安卓开发中Dialog和PopupWindow和新建Activity的使用场景有什么区别?](https://www.zhihu.com/question/37321437)  
 
 [Context都没弄明白，还怎么做Android开发？](https://www.jianshu.com/p/94e0f9ab3f1d)  
+
+#### 3.2 Activity、PhoneWindow、DecorView、R.id.content、WMS、WindowManager、WindowManagerGlobal、ViewRootImpl 关系 ，setContentView源码分析####
+
+[Android View和 Window 的关系](https://cloud.tencent.com/developer/article/1006674)  
+
+[Activity 与 Window、PhoneWindow、DecorView 之间的关系简述](http://gudong.name/2017/05/08/activity-windown-decorview.html)  
+
+[Activity、View、Window的理解一篇文章就够了](https://www.jianshu.com/p/5297e307a688)  
+
+[Android视图框架Activity,Window,View,ViewRootImpl理解](https://silencedut.github.io/2016/08/10/Android%E8%A7%86%E5%9B%BE%E6%A1%86%E6%9E%B6Activity,Window,View,ViewRootImpl%E7%90%86%E8%A7%A3/)  
+
+[ Android Activity 、 Window 、 View之间的关系](https://blog.csdn.net/u011733020/article/details/49465707)  
+
+[Android 视图架构详解](https://juejin.im/entry/571338c7c4c9710054cea455)  
+
+[Android setContentView() 详解](https://juejin.im/entry/59116dd044d904007bf99e09)  
+
+[【Android 源码解析】什么是android.R.id.content？](https://blog.csdn.net/colinandroid/article/details/77748695)  
+
+[Android窗口机制（二）Window，PhoneWindow，DecorView，setContentView源码理解](https://www.jianshu.com/p/e42b638944ae)  
+
+[android中View创建过程详解](http://www.jacpy.com/2016/12/13/android-view-create-detail.html)  
+
+[Android 从setContentView谈Activity界面的加载过程](https://my.oschina.net/purplesense/blog/643815)  
+
+[Android高级UI系列（1）-- setContentView()详解](http://imlerry.com/2017/05/08/02.Android%E9%AB%98%E7%BA%A7UI%E7%B3%BB%E5%88%97%EF%BC%881%EF%BC%89-setContentView-%E8%AF%A6%E8%A7%A3/)  
+
+[Android 面试指南](https://love2.io/@funkkiid/doc/android_interview//android/basis/decorview.md)  
