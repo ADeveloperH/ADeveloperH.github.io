@@ -135,12 +135,6 @@ categories: 面试知识
 
 [ Android Activity 、 Window 、 View之间的关系](https://blog.csdn.net/u011733020/article/details/49465707)  
 
-[Android 视图架构详解](https://juejin.im/entry/571338c7c4c9710054cea455)  
-
-[Android setContentView() 详解](https://juejin.im/entry/59116dd044d904007bf99e09)  
-
-[【Android 源码解析】什么是android.R.id.content？](https://blog.csdn.net/colinandroid/article/details/77748695)  
-
 [Android窗口机制（二）Window，PhoneWindow，DecorView，setContentView源码理解](https://www.jianshu.com/p/e42b638944ae)  
 
 [android中View创建过程详解](http://www.jacpy.com/2016/12/13/android-view-create-detail.html)  
@@ -150,3 +144,9 @@ categories: 面试知识
 [Android高级UI系列（1）-- setContentView()详解](http://imlerry.com/2017/05/08/02.Android%E9%AB%98%E7%BA%A7UI%E7%B3%BB%E5%88%97%EF%BC%881%EF%BC%89-setContentView-%E8%AF%A6%E8%A7%A3/)  
 
 [Android 面试指南](https://love2.io/@funkkiid/doc/android_interview//android/basis/decorview.md)  
+
+### 4 Android事件传递分发 ###
+
+#### 4.1 View事件传递分发 ####
+
+[ViewRootImpl源码分析事件分发](https://www.jianshu.com/p/9e6c54739217) 
