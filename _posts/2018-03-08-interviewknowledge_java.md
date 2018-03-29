@@ -47,6 +47,8 @@ categories: 面试知识
 
 [java提高篇（四）-----抽象类与接口](http://blog.csdn.net/chenssy/article/details/12858267)  
 
+[JAVA的多态用几句话能直观的解释一下吗？](https://www.zhihu.com/question/30082151/answer/120520568)  
+
 [java提高篇(四)-----理解java的三大特性之多态](https://www.cnblogs.com/chenssy/p/3372798.html)
 
 #### 3.2 成员内部类、静态内部类、局部内部类和匿名内部类 ####
@@ -98,3 +100,29 @@ categories: 面试知识
 [Android 进阶6：两种序列化方式 Serializable 和 Parcelable](http://blog.csdn.net/u011240877/article/details/72455715)  
 
 [Parceable和Serializable都有啥区别？](https://zhuanlan.zhihu.com/p/27193528) 
+
+
+### 4 java容器类 ###
+
+[java容器类框架详解](https://adeveloperh.github.io/2017/11/java_collections_framework/)  
+
+[java容器类](http://alexyyek.github.io/2015/04/06/Collection/)  
+
+[java 集合类Array、List、Map区别和联系](http://justcode.ikeepstudying.com/2017/06/java-%E9%9B%86%E5%90%88%E7%B1%BBarray%E3%80%81list%E3%80%81map%E5%8C%BA%E5%88%AB%E5%92%8C%E8%81%94%E7%B3%BB/)  
+
+#### 4.1 HashMap 原理详解 ####
+
+[Java 8系列之重新认识HashMap](https://tech.meituan.com/java-hashmap.html)  
+
+[HashMap内部原理解析](https://juejin.im/entry/5a5cad9b518825734978e5f4)
+
+[Java HashMap工作原理及实现](https://yikun.github.io/2015/04/01/Java-HashMap%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%8F%8A%E5%AE%9E%E7%8E%B0/)  
+
+[HashMap实现原理分析](http://fhaoer.com/20171127-HashMap/)  
+
+[HashMap的工作原理](http://www.androidchina.net/5561.html)  
+
+[HashMap常见面试问题](http://www.importnew.com/7099.html)    
+
+#### 4.2 HashTable 原理详解 ####
+
