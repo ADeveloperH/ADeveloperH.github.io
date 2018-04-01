@@ -35,6 +35,8 @@ categories: 面试知识
 
 [String与Integer的相互转化](http://blog.csdn.net/u011983531/article/details/50888139)
 
+[再解Java中的String（suprise）](http://cmsblogs.com/?p=863)
+
 ### 3 java 类相关 ###
 
 #### 3.1 抽象类与接口  ####
@@ -101,7 +103,6 @@ categories: 面试知识
 
 [Parceable和Serializable都有啥区别？](https://zhuanlan.zhihu.com/p/27193528) 
 
-
 ### 4 java容器类 ###
 
 [java容器类框架详解](https://adeveloperh.github.io/2017/11/java_collections_framework/)  
@@ -124,5 +125,70 @@ categories: 面试知识
 
 [HashMap常见面试问题](http://www.importnew.com/7099.html)    
 
-#### 4.2 HashTable 原理详解 ####
+[HashMap的死循环(HashMap infinite loop)](http://pettyandydog.com/2016/08/28/HashMap_infinite_loop/#more)    
 
+#### 4.2 LinkedHashMap 原理详解 ####
+
+[Java集合-LinkedHashMap工作原理](https://www.jianshu.com/p/3650bf13f09b)
+
+[LinkedHashMap 源码详细分析（JDK1.8）](https://segmentfault.com/a/1190000012964859)    
+
+[Java LinkedHashMap源码解析](http://liujiacai.net/blog/2015/09/12/java-linkedhashmap/)    
+
+#### 4.3 HashSet 原理详解 ####
+
+[Java HashSet工作原理及实现](https://yikun.github.io/2015/04/08/Java-HashSet%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%8F%8A%E5%AE%9E%E7%8E%B0/)    
+
+[HashSet实现原理及源码分析](https://blog.csdn.net/itmyhome1990/article/details/76212556)    
+
+[ java-Transient关键字、Volatile关键字介绍和序列化、反序列化机制、单例类序列化](https://blog.csdn.net/u010156024/article/details/48345257)    
+
+#### 4.4 LinkedHashSet 原理详解 ####
+
+[Java LinkedHashSet工作原理及实现](http://yikun.github.io/2015/04/09/Java-LinkedHashSet%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%8F%8A%E5%AE%9E%E7%8E%B0/)    
+
+[jdk HashSet, LinkedHashSet工作原理分析](https://fangjian0423.github.io/2016/03/30/jdk_hashset_linkedhashset/)    
+
+#### 4.5 TreeMap 原理详解 ####
+
+[Java提高篇（二七）-----TreeMap](https://www.jianshu.com/p/526970086e4e)
+
+[TreeMap 源码分析](https://segmentfault.com/a/1190000012775806)    
+
+[Java TreeMap工作原理及实现](http://yikun.github.io/2015/04/06/Java-TreeMap%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%8F%8A%E5%AE%9E%E7%8E%B0/)    
+
+[TreeMap实现原理及源码分析](https://blog.csdn.net/itmyhome1990/article/details/76213883)      
+  
+#### 4.6 TreeSet 原理详解 ####
+
+[Java TreeSet工作原理及实现](http://yikun.github.io/2015/04/10/Java-TreeSet%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%8F%8A%E5%AE%9E%E7%8E%B0/)      
+
+[java TreeSet原理与应用](https://www.jianshu.com/p/342bb16d4c6c)      
+
+#### 4.7 HashTable 原理详解 ####
+
+[HashMap、HashTable、HashSet、concurrentHashMap 线程安全，区别，实现原理](https://zhuanlan.zhihu.com/p/34793183)
+
+[HASHMAP、HASHTABLE、CONCURRENTHASHMAP的原理与区别](http://www.yuanrengu.com/index.php/2017-01-17.html)    
+
+[Java集合-Hashtable实现原理源码分析](https://www.jianshu.com/p/526970086e4e)    
+
+[Hashtable 的实现原理](https://www.beibq.cn/book/sjsa262-9221)    
+
+#### 4.8 ConcurrentHashMap 原理详解 ####
+
+[ConcurrentHashMap底层原理](https://juejin.im/post/5aba1030f265da23961269c6)      
+
+[ConcurrentHashMap 原理解析（JDK1.8）](https://www.jianshu.com/p/d10256f0ebea)      
+
+[ConcurrentHashMap总结](http://www.importnew.com/22007.html)      
+
+#### 4.9 WeakHashMap 原理详解 ####
+
+[WeakHashMap实现原理及源码分析](https://blog.csdn.net/itmyhome1990/article/details/77651165)      
+
+[Java WeakHashMap 源码解析](http://liujiacai.net/blog/2015/09/27/java-weakhashmap/)      
+
+[WeakHashMap](https://github.com/CarpenterLee/JCFInternals/blob/master/markdown/9-WeakHashMap.md)      
+
+[WeakHashMap 注意事项](http://www.baitouwei.com/2017/06/07/WeakHashMap-%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/)      
