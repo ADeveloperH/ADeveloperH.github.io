@@ -192,3 +192,77 @@ categories: 面试知识
 [WeakHashMap](https://github.com/CarpenterLee/JCFInternals/blob/master/markdown/9-WeakHashMap.md)      
 
 [WeakHashMap 注意事项](http://www.baitouwei.com/2017/06/07/WeakHashMap-%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/)      
+
+### 5 Java 多线程、并发、线程池 ###
+
+#### 5.1 线程和进程的区别 ####
+
+[Java多线程（一）多线程基础之进程、线程、并发、并行。](https://www.jianshu.com/p/9ef9cb2a8dfe)      
+
+[Java并发编程：进程和线程之由来](http://www.importnew.com/17908.html)      
+
+[Java面试题之多线程(一)](https://github.com/Homiss/Java-interview-questions/blob/master/%E5%A4%9A%E7%BA%BF%E7%A8%8B/Java%E9%9D%A2%E8%AF%95%E9%A2%98%E4%B9%8B%E5%A4%9A%E7%BA%BF%E7%A8%8B(%E4%B8%80).md)      
+
+#### 5.2 run()和start()方法区别 ####
+
+[Thread的run（）与start（）的区别](https://blog.csdn.net/xuxurui007/article/details/7685076) 
+ 
+#### 5.3 开启线程的三种方式 ####
+
+[Android中启动线程的几种方式](https://juejin.im/post/5a94e9a66fb9a063405236f1) 
+ 
+[创建多线程的三种方式](https://www.jianshu.com/p/4e16997af6c9) 
+
+#### 5.4 如何控制某个方法允许并发访问线程的个数 ####
+
+[使用Semaphore控制某个方法允许并发访问的线程的个数](https://blog.csdn.net/anhenzhufeng/article/details/70225415)  
+
+[Semaphore 并发个数控制](http://uule.iteye.com/blog/1539813) 
+
+#### 5.5 wait和seelp方法的不同 ####
+
+[[译]Java中Wait、Sleep和Yield方法的区别](https://www.jianshu.com/p/25e959037eed) 
+
+[Java中sleep()与wait()区别](https://blog.csdn.net/u012050154/article/details/50903326) 
+
+[wait()和sleep()的区别](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/difference-between-wait-and-sleep.md) 
+
+[Java Thread(线程)案例详解sleep和wait的区别](http://www.cnblogs.com/DreamSea/archive/2012/01/16/2263844.html)
+
+#### 5.6 什么导致线程阻塞？ #### 
+
+[线程阻塞的原因](https://blog.csdn.net/zuoyixiao/article/details/21893763) 
+
+[Java线程阻塞](https://blog.csdn.net/garybrother/article/details/4033447) 
+
+[java线程状态-阻塞的理解](https://www.jianshu.com/p/8954cebc3f50)
+
+#### 5.7 线程如何关闭？ #### 
+
+[ Android java 中如何优雅的结束线程](https://blog.csdn.net/feiduclear_up/article/details/43270375)
+
+[如何正确结束Java线程](https://www.jianshu.com/p/536b0df1fd55)
+
+[Java多线程任务的取消与关闭](https://zhuanlan.zhihu.com/p/32236404)
+
+#### 5.8 synchronize相关 #### 
+
+[深入理解Java并发之synchronized实现原理](https://blog.csdn.net/javazejian/article/details/72828483)
+
+[Java synchronized原理总结](https://zhuanlan.zhihu.com/p/29866981)
+
+[Java并发——Synchronized及其实现原理](https://www.jianshu.com/p/12514f6cccf1)
+
+#### 5.9 volatile相关 #### 
+
+[Java volatile原理总结](https://zhuanlan.zhihu.com/p/29868853)
+
+[volatile关键字的作用、原理](https://monkeysayhi.github.io/2016/11/29/volatile%E5%85%B3%E9%94%AE%E5%AD%97%E7%9A%84%E4%BD%9C%E7%94%A8%E3%80%81%E5%8E%9F%E7%90%86/)
+
+[深入分析Volatile的实现原理](https://blog.csdn.net/eff666/article/details/67640648)
+
+[Volatile实现原理](http://blog.zswlib.com/2017/12/25/volatile%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86/)
+
+[Java并发机制的底层实现原理](https://cschenyuan.gitbooks.io/java/content/concurrent/2%20Java%E5%B9%B6%E5%8F%91%E6%9C%BA%E5%88%B6%E7%9A%84%E5%BA%95%E5%B1%82%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86.html)
+
+ 
