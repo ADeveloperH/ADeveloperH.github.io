@@ -265,4 +265,28 @@ categories: 面试知识
 
 [Java并发机制的底层实现原理](https://cschenyuan.gitbooks.io/java/content/concurrent/2%20Java%E5%B9%B6%E5%8F%91%E6%9C%BA%E5%88%B6%E7%9A%84%E5%BA%95%E5%B1%82%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86.html)
 
- 
+#### 5.10 volatile和synchronized的区别 ####
+
+[volatile和synchronized的区别](https://blog.csdn.net/suifeng3051/article/details/52611233)  
+
+[ volatile和synchronized的区别和联系](https://blog.csdn.net/xiangzhihong8/article/details/52125815)
+
+[volatile和Synchronized区别](https://github.com/CharonChui/AndroidNote/blob/master/JavaKnowledge/volatile%E5%92%8CSynchronized%E5%8C%BA%E5%88%AB.md)
+
+[多线程关键字volatile和synchronized区别](http://royleo.xyz/2017/07/20/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%85%B3%E9%94%AE%E5%AD%97volatile%E5%92%8Csynchronized%E5%8C%BA%E5%88%AB/)
+
+#### 5.11 synchronized与Lock的区别 ####
+
+[并发编程的锁机制：synchronized和lock](https://juejin.im/post/5a43ad786fb9a0450909cb5f)  
+
+[synchronized、lock、reentrantLock区别](http://huachao1001.github.io/article.html?RA5V7007)  
+  
+[Synchronized、Lock、ReentrantLock区别](https://www.jianshu.com/p/c5ee2508cf67)  
+
+[详解synchronized与Lock的区别与使用](https://blog.csdn.net/u012403290/article/details/64910926)  
+
+[Java并发编程：Lock](https://www.cnblogs.com/dolphin0520/p/3923167.html)  
+
+[synchronized与lock的区别](http://blog.lastww.com/2015/02/04/difference-between-java-lock-and-synchronized)  
+
+[Synchronized 和Reentrant Lock 有什么具体区别?](http://community.bittiger.io/topic/443/synchronized-%E5%92%8Creentrant-lock-%E6%9C%89%E4%BB%80%E4%B9%88%E5%85%B7%E4%BD%93%E5%8C%BA%E5%88%AB)  
