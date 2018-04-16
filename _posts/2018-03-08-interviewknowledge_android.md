@@ -11,6 +11,8 @@ categories: 面试知识
 
 [Android面经-基础篇(持续更新...)](http://blog.csdn.net/simplebam/article/details/77989675)  
 
+[吐血整理！17年下半年面试问题以及解析精华整理（上）](http://ailoli.me/2018/03/10/%E9%9D%A2%E8%AF%95%E7%AD%94%E6%A1%88/)  
+
 ### 1 四大组件相关 ###
 
 #### 1.1 Activity相关知识点 ####
@@ -105,6 +107,20 @@ categories: 面试知识
 
 [Android 回调机制理解](http://howietian.top/2017/04/16/Android-%E5%9B%9E%E8%B0%83%E6%9C%BA%E5%88%B6%E7%90%86%E8%A7%A3/)  
 
+#### 2.4 低版本SDK如何实现高版本api？ ####
+
+[Android 高版本 API 方法在低版本系统上的兼容性处理](https://www.liaohuqiu.net/cn/posts/using-high-api-level-method-compatibly/)  
+
+[使用Android lint发现并解决高版本API问题](https://droidyue.com/blog/2015/07/25/use-android-lint-to-find-higher-api-usage/)  
+
+[新手的第一个Android项目该如何选择targetSdkVersion](http://www.androidchina.net/6598.html)  
+
+[Android SDK版本与兼容包相关](http://waylenw.github.io/android-sdk-verion/)  
+
+[Android Support Library 兼容库概念性介绍](https://juejin.im/entry/564beda600b0d1db33900e87)  
+
+[android sdk开发应该如何设置android.jar版本(compileSDK)?](https://www.zhihu.com/question/63917619)  
+
 ### 3 Android中View ###
 
 #### 3.1 AlertDialog、PopupWindow、Activity区别 ####
@@ -145,8 +161,150 @@ categories: 面试知识
 
 [Android 面试指南](https://love2.io/@funkkiid/doc/android_interview//android/basis/decorview.md)  
 
+#### 3.3 LayoutInflater ####
+
+[三个案例带你看懂LayoutInflater中inflate方法两个参数和三个参数的区别](https://blog.csdn.net/u012702547/article/details/52628453)  
+
 ### 4 Android事件传递分发 ###
 
 #### 4.1 View事件传递分发 ####
 
 [ViewRootImpl源码分析事件分发](https://www.jianshu.com/p/9e6c54739217) 
+
+### 5 自定义View相关 ###
+
+#### 5.1 View测量、布局、绘制流程 ####
+
+[Android View 的工作流程和原理](http://blog.51cto.com/13562787/2062858) 
+
+[深入理解Android之View的绘制流程](https://www.jianshu.com/p/060b5f68da79) 
+
+[Android视图绘制流程完全解析，带你一步步深入了解View(二)](https://blog.csdn.net/guolin_blog/article/details/16330267) 
+
+[Android 视图 View 绘制流程及源码分析](https://juejin.im/entry/58c3d9478ac2470720fefd4b) 
+
+[公共技术点之 View 绘制流程](http://www.codekk.com/blogs/detail/54cfab086c4761e5001b253f) 
+
+[Android应用层View绘制流程与源码分析](https://blog.csdn.net/yanbober/article/details/46128379) 
+
+#### 5.2 View draw相关 ####
+
+[Android坐标系与View绘制流程](http://www.idtkm.com/2016/05/08/1%E3%80%81CoordinateAndProcess/)  
+
+[HenCoder Android 开发进阶：自定义 View 1-5 绘制顺序](http://hencoder.com/ui-1-5/)
+
+#### 5.3 自定义 View 相关 ####
+
+[Android自定义View详解](https://www.jianshu.com/p/69faa6e019a6)
+
+[Android自定义View详解](https://www.daidingkang.cc/2017/05/19/CustomView/)
+
+[安卓自定义View教程目录](http://www.gcssloop.com/customview/CustomViewIndex/)
+
+[HenCoder Android 开发进阶: 自定义 View ](https://segmentfault.com/a/1190000012956590)
+
+#### 5.5 TextView 相关 ####
+
+[View多行文本居中](https://github.com/Idtk/Blog/blob/master/Blog/3%E3%80%81Multi-lineTextCenter.md) 
+
+#### 5.6 android刷新机制 ####
+
+[Android应用性能优化最佳实践.2.6　合理的刷新机制](https://yq.aliyun.com/articles/82597) 
+
+[Android性能优化典范 - 第1季 阅读笔记](http://gudong.name/2016/01/13/android-performance-patterns-first-note.html) 
+
+[Android性能优化典范 - 第1季](http://hukai.me/android-performance-patterns/) 
+
+[Android绘制优化----系统显示原理](https://zhuanlan.zhihu.com/p/27344882) 
+
+#### 5.7 requestLayout、invalidate、postInvalidate的区别及使用 ####
+
+[ Android View 深度分析requestLayout、invalidate与postInvalidate](https://blog.csdn.net/a553181867/article/details/51583060) 
+
+[android中view的invalidate()跟requestLayout()两个方法的调用过程？](https://www.zhihu.com/question/41213195) 
+
+[从源码看invalidate和requestLayout的区别](https://blog.csdn.net/litefish/article/details/52859300) 
+
+[常见面试第四题之requestLayout, invalidate和postInvalidate的异同](http://www.10tiao.com/html/147/201507/208614329/1.html) 
+
+[INVALIDATE()和POSTINVALIDATE() POSTINVALIDATEONANIMATION()的区别及使用](https://www.debugrun.com/a/UQIm06o.html)  
+
+#### 5.8 优化自定义View ####
+
+[优化自定义View](http://hukai.me/android-training-course-in-chinese/ui/custom-view/optimize-view.html) 
+
+[优化你的自定义View](http://lengyue524.github.io/android%20tips/2015/09/03/%E4%BC%98%E5%8C%96%E4%BD%A0%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89View.html) 
+
+[你最需要知道的View优化](https://zhuanlan.zhihu.com/p/28198804) 
+
+[android自定义view课程之view的优化](http://www.jcodecraeer.com/a/anzhuokaifa/developer/2013/0203/834.html)
+
+[自定义复杂 View 以及相关绘制优化实践](http://gudong.name/2017/04/28/custom-preference-view.html) 
+
+[自定义View从入门到上天](https://www.jianshu.com/p/0fb9017e821c) 
+
+[Android性能优化(二)-自定义View优化](http://ibigerbiger.me/2016/10/20/Android%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96(%E4%BA%8C)-%E8%87%AA%E5%AE%9A%E4%B9%89View%E4%BC%98%E5%8C%96/) 
+
+[安卓开发详解—GPU呈现模式分析](https://www.jianshu.com/p/84e7ce86c119)
+
+#### 5.9 自定义View如何考虑机型适配 ####  
+
+[ANDROID 布局优化](http://stormzhang.com/android/2014/04/10/android-optimize-layout/)  
+
+[关于Android布局你不知道的](http://www.96nian.com/3173.html)  
+
+[Android中RelativeLayout和LinearLayout性能分析](https://www.jianshu.com/p/8a7d059da746)  
+
+[RelativeLayout, FlexLayout 及其他 layout 性能对比](https://blog.piasy.com/2016/04/07/Layout-Perf/)  
+
+[从 View 绘制谈性能优化](http://wl9739.github.io/2017/02/26/从-View-绘制谈性能优化/)
+
+#### 5.10 新增控件 ####
+
+[Android5.0和6.0之后新增的控件说明](https://blog.csdn.net/aqi00/article/details/59108336)
+
+#### 5.11 获取view的宽高 ####
+
+[Android 获取 View 宽高的方式](https://zhooker.github.io/2017/12/18/Android-%E8%8E%B7%E5%8F%96-View-%E5%AE%BD%E9%AB%98%E7%9A%84%E6%96%B9%E5%BC%8F/)  
+
+[获取View的宽度和高度](https://www.jianshu.com/p/d18f0c96acb8)  
+
+[Android获取View的宽度和高度](https://blog.csdn.net/chenbaige/article/details/77991594)  
+
+[Android--获取View的宽高的几种方法](https://blog.csdn.net/HardWorkingAnt/article/details/77278811)  
+
+[Android 获取 View 宽高的常用正确方式，避免为零](https://yifeng.studio/2017/03/21/android-obtain-view-width-and-heigth-not-zero/)
+
+
+#### 6 多进程相关问题 ####
+
+#### 6.1 多进程知识 ####
+
+[Android 中的多进程，你值得了解的一些知识](https://yifeng.studio/2017/06/16/android-multi-process-things/)  
+
+[多进程的一些注意事项](http://www.cnblogs.com/wufeng0927/p/5304448.html)  
+  
+[关于 Android 应用多进程的整理](https://droidyue.com/blog/2017/01/15/android-multiple-processes-summary/)  
+
+[Android 进程间通信](http://wuxiaolong.me/2018/02/15/AndroidIPC/)  
+
+[Android多进程使用场景](http://www.10tiao.com/html/227/201612/2650238197/1.html)  
+
+#### 6.2 SharedPreferences相关知识 ####
+
+[请不要滥用SharedPreference](http://weishu.me/2016/10/13/sharedpreference-advices/)  
+
+[深入理解 Android 中的 SharedPreferences](https://juejin.im/entry/57dfa5fa8ac24700616ce971)  
+
+[一个null引发的SharedPreferences惨案](http://www.10tiao.com/html/227/201612/2650237991/1.html)  
+
+[对 SharedPreferences 再多一点了解](http://extremej.itscoder.com/shared_preferences_source/)  
+
+[Android SharedPreference 支持多进程](https://www.jianshu.com/p/875d13458538)  
+
+[通过 ContentProvider 多进程共享 SharedPreferences 数据](https://juejin.im/entry/5897f042128fe100655fd70c)  
+
+### 7、性能优化 ###
+
+[关于Android性能优化，该从哪些方面入手？](http://lruheng.com/2017/03/18/%E5%85%B3%E4%BA%8EAndroid%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%EF%BC%8C%E8%AF%A5%E4%BB%8E%E5%93%AA%E4%BA%9B%E6%96%B9%E9%9D%A2%E5%85%A5%E6%89%8B%EF%BC%9F/)
+

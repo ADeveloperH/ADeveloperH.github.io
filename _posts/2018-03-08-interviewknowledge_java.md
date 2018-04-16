@@ -290,3 +290,42 @@ categories: 面试知识
 [synchronized与lock的区别](http://blog.lastww.com/2015/02/04/difference-between-java-lock-and-synchronized)  
 
 [Synchronized 和Reentrant Lock 有什么具体区别?](http://community.bittiger.io/topic/443/synchronized-%E5%92%8Creentrant-lock-%E6%9C%89%E4%BB%80%E4%B9%88%E5%85%B7%E4%BD%93%E5%8C%BA%E5%88%AB)  
+
+#### 5.12 死锁相关知识 ####
+
+[死锁的概念以及产生死锁的原因](https://www.kancloud.cn/hanghanghang/os/239542)  
+
+[死锁及处理](http://www.cnblogs.com/balingybj/p/4782032.html)  
+
+#### 5.13 对象锁和类锁是否会互相影响 ####
+
+[对象锁和类锁是否会互相影响](https://blog.csdn.net/u011402896/article/details/79363165)  
+
+[Java类锁和对象锁实践](http://jiehao.iteye.com/blog/2128317)  
+
+#### 5.14 线程池相关 ####
+
+[线程池，这一篇或许就够了](https://liuzho.github.io/2017/04/17/%E7%BA%BF%E7%A8%8B%E6%B1%A0%EF%BC%8C%E8%BF%99%E4%B8%80%E7%AF%87%E6%88%96%E8%AE%B8%E5%B0%B1%E5%A4%9F%E4%BA%86/)  
+
+[深入理解 Java 线程池：ThreadPoolExecutor](https://juejin.im/entry/58fada5d570c350058d3aaad)  
+
+[Java几种线程池的分析和使用](https://zhuanlan.zhihu.com/p/22882522)  
+
+[Java 四种线程池的用法分析](https://blog.csdn.net/u011974987/article/details/51027795)  
+
+[Java线程池分析](http://gityuan.com/2016/01/16/thread-pool/)  
+
+#### 5.15 多线程断点续传原理 ####
+
+[Android多线程断点续传下载原理](https://www.jianshu.com/p/7127075d5eef)  
+
+[【Android开发经验】关于“多线程断点续传下载”功能的一个简单实现和讲解](https://blog.csdn.net/zhaokaiqiang1992/article/details/43939279)  
+
+[Android多线程断点续传下载](https://www.jianshu.com/p/2b82db0a5181)  
+
+[Java多线程下载01: 多线程的好处以及断点续传原理](https://juejin.im/post/59f1563f6fb9a045146342cf)  
+
+[多线程系列之学习多线程下载的基本原理和基本用法（1）](https://segmentfault.com/a/1190000005121356)  
+
+[okhttp下载文件断点续传(转)实测有用](http://www.jcodecraeer.com/a/chengxusheji/java/2017/0907/8484.html)  
+
