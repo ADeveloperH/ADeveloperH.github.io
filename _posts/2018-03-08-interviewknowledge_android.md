@@ -169,7 +169,31 @@ categories: 面试知识
 
 #### 4.1 View事件传递分发 ####
 
+[安卓自定义View进阶-事件分发机制原理（有一和二）](http://www.gcssloop.com/customview/dispatch-touchevent-theory) 
+
+[Android View 事件分发机制 源码解析 （上）](https://blog.csdn.net/lmj623565791/article/details/38960443) 
+
+[Android事件分发机制 详解攻略，您值得拥有](https://blog.csdn.net/carson_ho/article/details/54136311) 
+
+[Android事件分发机制完全解析，带你从源码的角度彻底理解(上)](https://blog.csdn.net/guolin_blog/article/details/9097463) 
+
+[Android事件分发机制完全解析，带你从源码的角度彻底理解](https://zhuanlan.zhihu.com/p/32686674) 
+
+[Android View的事件分发机制和滑动冲突解决方案](http://www.10tiao.com/html/169/201702/2650822067/1.html) 
+
+[View的事件分发机制](http://shenhuniurou.com/2017/08/06/android-view-dispatch-touchevent) 
+
+[Android事件传递之子View和父View的那点事](https://www.jianshu.com/p/7ff768a77410)  
+
 [ViewRootImpl源码分析事件分发](https://www.jianshu.com/p/9e6c54739217) 
+
+#### 4.2 点击事件被拦截，但是想传到下面的View，如何操作？ ####
+
+[Android题目笔记(五)](https://blog.csdn.net/u013072976/article/details/78396932) 
+
+
+
+
 
 ### 5 自定义View相关 ###
 
@@ -303,6 +327,20 @@ categories: 面试知识
 [Android SharedPreference 支持多进程](https://www.jianshu.com/p/875d13458538)  
 
 [通过 ContentProvider 多进程共享 SharedPreferences 数据](https://juejin.im/entry/5897f042128fe100655fd70c)  
+
+
+
+### 7、 Handler 相关 ###
+
+#### 7.1 为什么不能在子线程更新UI？ ####
+
+[Android中不能在子线程中更新UI?!](http://www.linzhengblog.com/2016/12/08/Android%E4%B8%AD%E4%B8%8D%E8%83%BD%E5%9C%A8%E5%AD%90%E7%BA%BF%E7%A8%8B%E4%B8%AD%E6%9B%B4%E6%96%B0UI/)  
+
+[Android 中子线程真的不能更新 UI 吗？](https://ivanljt.github.io/blog/2017/08/16/Android%20%E4%B8%AD%E5%AD%90%E7%BA%BF%E7%A8%8B%E7%9C%9F%E7%9A%84%E4%B8%8D%E8%83%BD%E6%9B%B4%E6%96%B0UI%E5%90%97/)  
+
+[Android只在UI主线程修改UI，是个谎言吗？ 为什么这段代码能完美运行？](https://www.zhihu.com/question/24764972)  
+
+[android 不能在子线程中更新ui的讨论和分析](https://blog.csdn.net/self_study/article/details/50548894)  
 
 ### 7、性能优化 ###
 
