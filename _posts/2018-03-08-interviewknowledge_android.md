@@ -328,9 +328,31 @@ categories: 面试知识
 
 [通过 ContentProvider 多进程共享 SharedPreferences 数据](https://juejin.im/entry/5897f042128fe100655fd70c)  
 
-
-
 ### 7、 Handler 相关 ###
+
+#### 7.1 Handler 机制详解 ####
+
+[Android中的Thread, Looper和Handler机制(附带HandlerThread与AsyncTask](https://hit-alibaba.github.io/interview/Android/basic/Android-handler-thread-looper.html)  
+
+[ Android异步消息处理机制完全解析，带你从源码的角度彻底理解](https://blog.csdn.net/guolin_blog/article/details/9991569)  
+
+[Android 中 Handler 机制](https://juejin.im/entry/58523ae561ff4b0068432889)  
+
+[Android消息机制1-Handler(Java层)](http://gityuan.com/2015/12/26/handler-message-framework/)  
+
+[Android Handler 机制 - Looper，Message，MessageQueue](https://www.cnblogs.com/rustfisher/p/7272697.html)  
+
+[Handler机制完全解析](https://segmentfault.com/a/1190000011311112)  
+
+[Handler 机制再了解](http://fitzeng.org/2017/09/11/handler/)  
+
+[Android 的 Handler 机制实现原理分析](https://www.ktanx.com/blog/p/4724)  
+
+#### 7.2 Handler 机制常见问题 ####
+
+[Android消息机制，你真的了解Handler吗？](http://www.10tiao.com/html/227/201711/2650241824/1.html)  
+
+
 
 #### 7.1 为什么不能在子线程更新UI？ ####
 
@@ -342,7 +364,13 @@ categories: 面试知识
 
 [android 不能在子线程中更新ui的讨论和分析](https://blog.csdn.net/self_study/article/details/50548894)  
 
-### 7、性能优化 ###
+
+### 8、 Binder 机制 ###
+
+[Binder系列—开篇](http://gityuan.com/2015/10/31/binder-prepare/)  
+
+
+
+### 9、性能优化 ###
 
 [关于Android性能优化，该从哪些方面入手？](http://lruheng.com/2017/03/18/%E5%85%B3%E4%BA%8EAndroid%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%EF%BC%8C%E8%AF%A5%E4%BB%8E%E5%93%AA%E4%BA%9B%E6%96%B9%E9%9D%A2%E5%85%A5%E6%89%8B%EF%BC%9F/)
-
