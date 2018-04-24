@@ -121,6 +121,17 @@ categories: 面试知识
 
 [android sdk开发应该如何设置android.jar版本(compileSDK)?](https://www.zhihu.com/question/63917619)  
 
+#### 2.5 ANR 原因、定位、修复 ####
+
+[ANR产生的原因及定位分析](https://juejin.im/entry/597026806fb9a06bcb7fc660)  
+
+[Android ANR 分析](http://haiolv.github.io/2016/06/13/android-anr%E5%88%86%E6%9E%90/)  
+
+[ANR 原理与实战技巧](https://zhuanlan.zhihu.com/p/29015348)  
+
+[Android应用开发性能优化完全分析（转）](http://club.oneapm.com/t/android/196)  
+
+
 ### 3 Android中View ###
 
 #### 3.1 AlertDialog、PopupWindow、Activity区别 ####
@@ -165,6 +176,28 @@ categories: 面试知识
 
 [三个案例带你看懂LayoutInflater中inflate方法两个参数和三个参数的区别](https://blog.csdn.net/u012702547/article/details/52628453)  
 
+#### 3.4 ListView VS RecyclerView ####
+
+[RecyclerView 和 ListView 使用对比分析](https://www.jianshu.com/p/f592f3715ae2)  
+
+[RecyclerView 必知必会](https://juejin.im/entry/5872f5241b69e6005cde6be1)  
+
+[[Android]RecyclerView与ListView的对比分析](http://blog.qiji.tech/archives/16436)  
+
+[我们为什么要使用RecyclerView](http://zjutkz.net/2016/08/10/%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BD%BF%E7%94%A8RecyclerView/)  
+
+[Android RecyclerView 使用完全解析 体验艺术般的控件](https://blog.csdn.net/lmj623565791/article/details/45059587)  
+
+[Android 优雅的为RecyclerView添加HeaderView和FooterView](https://blog.csdn.net/lmj623565791/article/details/51854533)  
+
+#### 3.5 ListView图片加载错乱的原理和解决方案 ####
+
+[Android ListView异步加载图片乱序问题，原因分析及解决方案](https://blog.csdn.net/guolin_blog/article/details/45586553)  
+
+[ListView异步加载图片--图片缓存和错位问题解决方案](https://www.kancloud.cn/digest/androidfrom-0/144445)  
+
+
+
 ### 4 Android事件传递分发 ###
 
 #### 4.1 View事件传递分发 ####
@@ -190,10 +223,6 @@ categories: 面试知识
 #### 4.2 点击事件被拦截，但是想传到下面的View，如何操作？ ####
 
 [Android题目笔记(五)](https://blog.csdn.net/u013072976/article/details/78396932) 
-
-
-
-
 
 ### 5 自定义View相关 ###
 
@@ -352,9 +381,13 @@ categories: 面试知识
 
 [Android消息机制，你真的了解Handler吗？](http://www.10tiao.com/html/227/201711/2650241824/1.html)  
 
+#### 7.3 Handler、Thread和HandlerThread的差别 ####
 
+[Android HandlerThread 源码分析](https://blog.csdn.net/feiduclear_up/article/details/46840523)  
 
-#### 7.1 为什么不能在子线程更新UI？ ####
+[Android HandlerThread详解](https://www.jianshu.com/p/8b767663cea1)  
+
+#### 7.4 为什么不能在子线程更新UI？ ####
 
 [Android中不能在子线程中更新UI?!](http://www.linzhengblog.com/2016/12/08/Android%E4%B8%AD%E4%B8%8D%E8%83%BD%E5%9C%A8%E5%AD%90%E7%BA%BF%E7%A8%8B%E4%B8%AD%E6%9B%B4%E6%96%B0UI/)  
 
@@ -363,6 +396,26 @@ categories: 面试知识
 [Android只在UI主线程修改UI，是个谎言吗？ 为什么这段代码能完美运行？](https://www.zhihu.com/question/24764972)  
 
 [android 不能在子线程中更新ui的讨论和分析](https://blog.csdn.net/self_study/article/details/50548894)  
+
+#### 7.5 AsyncTask 相关 ####
+
+[Android AsyncTask 源码解析](https://blog.csdn.net/lmj623565791/article/details/38614699)  
+
+[Android中AsyncTask使用详解](https://blog.csdn.net/iispring/article/details/50639090)  
+
+[源码解析Android中AsyncTask的工作原理](https://blog.csdn.net/iispring/article/details/50670388)  
+
+[Android AsyncTask原理解析](https://juejin.im/entry/59c316815188254f5d1741dc)  
+
+[AsyncTask 使用和缺陷](https://blog.csdn.net/boyupeng/article/details/49001215)  
+
+[AsyncTask的缺陷和问题](https://blog.csdn.net/goodlixueyong/article/details/45895997)  
+
+[AsyncTask原理及不足](https://blog.csdn.net/Google_huchun/article/details/65630850)  
+
+[AsyncTask进行异步处理的缺陷](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2013/0208/855.html)  
+
+[AsyncTask的原理及优缺点解析](https://www.jianshu.com/p/f6cf01ecac30)  
 
 
 ### 8、 Binder 机制 ###
@@ -374,3 +427,99 @@ categories: 面试知识
 ### 9、性能优化 ###
 
 [关于Android性能优化，该从哪些方面入手？](http://lruheng.com/2017/03/18/%E5%85%B3%E4%BA%8EAndroid%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%EF%BC%8C%E8%AF%A5%E4%BB%8E%E5%93%AA%E4%BA%9B%E6%96%B9%E9%9D%A2%E5%85%A5%E6%89%8B%EF%BC%9F/)
+
+
+### 10 设计模式相关 ###
+
+[Android设计模式-总结+索引](https://blog.csdn.net/qq_25806863/article/details/70049982)  
+
+[Android的设计模式](https://www.jianshu.com/p/bf92927c9d22)  
+
+#### 10.1 单例模式 ####
+
+[ANDROID设计模式之单例模式](http://stormzhang.com/designpattern/2016/03/27/android-design-pattern-singleton/)  
+
+[Android设计模式（一）-单例模式](https://blog.csdn.net/qq_25806863/article/details/66236371)  
+
+#### 10.2 Builder 对象创建型模式 ####
+
+[Android开发---Builder 模式必知必会](https://www.jianshu.com/p/4b483e6e73e1)  
+
+[结合 Android 浅谈 Builder 模式](https://juejin.im/post/58f630a544d904006c0eedc9)  
+
+[Android中的构建者（Builder）模式](https://wangganxin.me/2016/11/7/design-pattern-for-builder.html)  
+
+#### 10.3 工厂模式 ####
+
+[工厂模式——看这一篇就够了](https://juejin.im/entry/58f5e080b123db2fa2b3c4c6)  
+
+[Android开发设计模式之——工厂模式](https://blog.csdn.net/Beyond0525/article/details/22806393)  
+
+[Android 工厂模式，三种工厂模式的理解](https://blog.csdn.net/zhi184816/article/details/51348567)  
+
+[设计模式与Android](https://github.com/suzeyu1992/repo/tree/master/project/design-pattern/%E7%9E%B0-%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8EAndroid(%E7%AF%87%E4%B8%80)#18)  
+
+[Android 源码中的静态工厂方法](http://android.jobbole.com/84838/)  
+
+#### 10.4 观察者模式 ####
+
+[观察者模式](https://www.jianshu.com/p/6fcce09cc1ce)  
+
+[Android设计模式学习之观察者模式](https://blog.csdn.net/u012124438/article/details/55294914)  
+
+[Android观察者模式的理解](https://www.jianshu.com/p/bd833ba613fb)  
+
+[当观察者模式和回调机制遇上 Android 源码](https://juejin.im/entry/57e4ef050bd1d0005bf0d362)  
+
+[Android-观察者模式](http://blog.qiji.tech/archives/2966)  
+
+[谈谈Android中的观察者模式](http://www.10tiao.com/html/241/201606/2650686284/1.html)  
+
+[观察者模式——千里眼和顺风耳](http://blog.51cto.com/dongfeng9ge/1984203)  
+
+#### 10.5 适配器模式 ####
+
+[适配器模式（Adapter Pattern）- 最易懂的设计模式解析](https://blog.csdn.net/carson_ho/article/details/54910430)  
+
+[[Android]设计模式-适配器模式](http://blog.qiji.tech/archives/5692)  
+
+#### 10.6 策略模式 ####
+
+[Android开发中无处不在的设计模式——策略模式](https://blog.csdn.net/sbsujjbcy/article/details/49863921)  
+
+[ 策略模式（Strategy Pattern）- 最易懂的设计模式解析](https://blog.csdn.net/carson_ho/article/details/54910374)  
+
+[Android设计模式源码解析之策略模式](https://github.com/simple-android-framework/android_design_patterns_analysis/tree/master/strategy/gkerison)  
+
+[人人都会设计模式---策略模式--Strategy](https://segmentfault.com/a/1190000011918366)  
+
+#### 10.7 享元模式 ####
+
+[java/android 设计模式学习笔记（13）---享元模式](https://blog.csdn.net/self_study/article/details/51870660)  
+
+[Android开发Message源码分析【享元模式|对象池】](https://blog.csdn.net/wangshihui512/article/details/51453839)  
+
+[Android 源码中的享元模式——Message 复用原理](https://ivanljt.github.io/blog/2017/08/26/Android-%E6%BA%90%E7%A0%81%E4%B8%AD%E7%9A%84%E4%BA%AB%E5%85%83%E6%A8%A1%E5%BC%8F%E2%80%94%E2%80%94Message%E5%A4%8D%E7%94%A8%E6%9C%BA%E5%88%B6/)  
+
+
+#### 10.8 装饰模式 ####
+
+#### 10.9 代理模式 ####
+
+#### 10.10 责任链模式 ####
+
+#### 10.11 命令模式 ####
+
+#### 10.12 解释器模式 ####
+
+
+### 11 Android 动画相关 ###
+
+[Android View 动画和属性动画学习笔记](http://yongyu.itscoder.com/2016/12/25/animation_learning_note/)  
+
+[属性动画（一）](https://juejin.im/entry/5a02f5c85188254eaf280204)  
+
+[Android四大视图动画图文详解](https://blog.csdn.net/iispring/article/details/50167405)  
+
+[Android 属性动画总结](https://www.jianshu.com/p/d98f42dee2b1)  
+
