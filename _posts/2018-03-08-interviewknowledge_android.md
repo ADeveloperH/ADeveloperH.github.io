@@ -418,16 +418,169 @@ categories: 面试知识
 [AsyncTask的原理及优缺点解析](https://www.jianshu.com/p/f6cf01ecac30)  
 
 
+#### 7.6 LRUCache  ####
+
+[Android LruCache解析](https://www.jianshu.com/p/b0abb0d818b7)  
+
+[详解基于LRU缓存的LruCache类及其在Android内存优化中的应用](https://zhuanlan.zhihu.com/p/36239107)  
+
+[Android内存缓存LruCache源码解析](https://www.jianshu.com/p/b6e9a7bdf8d3)  
+
+#### 7.7 DiskLRUCache ####
+
+[Android DiskLruCache完全解析，硬盘缓存的最佳方案](https://blog.csdn.net/guolin_blog/article/details/28863651)  
+
+[三分钟学会缓存工具DiskLruCache](https://blog.csdn.net/u012702547/article/details/47276385)  
+
+[Android使用磁盘缓存DiskLruCache](https://www.jianshu.com/p/f9cfbea586c2)  
+
+[优雅的构建 Android 项目之磁盘缓存(DiskLruCache)](https://juejin.im/post/589d2c862f301e0069b92c04)  
+
 ### 8、 Binder 机制 ###
 
 [Binder系列—开篇](http://gityuan.com/2015/10/31/binder-prepare/)  
-
-
 
 ### 9、性能优化 ###
 
 [关于Android性能优化，该从哪些方面入手？](http://lruheng.com/2017/03/18/%E5%85%B3%E4%BA%8EAndroid%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%EF%BC%8C%E8%AF%A5%E4%BB%8E%E5%93%AA%E4%BA%9B%E6%96%B9%E9%9D%A2%E5%85%A5%E6%89%8B%EF%BC%9F/)
 
+#### 9.1 内存：OOM相关 ####
+
+[Android内存优化之OOM](http://hukai.me/android-performance-oom/)  
+
+[内存泄漏分析心得](https://itimetraveler.github.io/2017/02/13/%E3%80%90Android%E3%80%91%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F%E5%88%86%E6%9E%90%E5%BF%83%E5%BE%97/)  
+
+[Android内存泄漏小谈](http://smallsoho.com/android/2017/01/11/Android%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F%E6%80%9D%E8%80%83/)  
+
+[常见的八种导致 APP 内存泄漏的问题](http://blog.nimbledroid.com/2016/05/23/memory-leaks-zh.html)  
+
+[性能优化（二）内存管理 & Memory Leak & OOM](http://vivianking6855.github.io/2017/02/27/Android-optimization-2-OOM/#3-%E6%B3%A8%E5%86%8C%E6%9F%90%E4%B8%AA%E5%AF%B9%E8%B1%A1%E5%90%8E%E6%9C%AA%E5%8F%8D%E6%B3%A8%E5%86%8C)  
+
+[系统剖析Android中的内存泄漏](https://droidyue.com/blog/2016/11/23/memory-leaks-in-android/)  
+
+[浅析android的OOM问题](https://www.jianshu.com/p/ee78eb0fb651)  
+
+[一次解决OOM的经历](https://segmentfault.com/a/1190000005180612)  
+
+[Android 性能优化之内存泄漏](http://johnnyshieh.me/posts/android-memory-leak/)  
+
+[不可思议的OOM](https://juejin.im/entry/59f7ea06f265da43143ffee4)  
+
+#### 9.2 Oom 是否可以try catch？为什么？ ####
+
+[安卓编程:可否用try-catch捕获Out Of Memory Error以避免其发生？](https://www.zhihu.com/question/54630917)  
+
+[Android 捕获OOM方法](https://blog.csdn.net/mr_liabill/article/details/50209617)  
+
+#### 9.3 java 四中引用 ####
+
+[强引用、弱引用、软引用、虚引用](https://www.jianshu.com/p/1fc5d1cbb2d4)  
+
+[Java中的强引用，软引用，弱引用，虚引用有什么用？](https://www.zhihu.com/question/37401125)  
+
+[如果对象的引用被置为null，垃圾收集器是否会立即释放对象占用的内存？](https://www.nowcoder.com/questionTerminal/fbef4d5971ce4009aa720aecf7d83f3c)  
+
+### 9.4 GC 相关###
+
+[深入理解java虚拟机（一）：java内存区域（内存结构划分）](https://blog.csdn.net/chaofanwei/article/details/19418753)  
+
+[JVM系列之Java内存结构详解](https://juejin.im/post/5a14de6751882555cc417df7)  
+
+[浅析JAVA的垃圾回收机制（GC）](https://www.jianshu.com/p/5261a62e4d29)  
+
+[JAVA垃圾回收机制](http://www.wxtlife.com/2016/04/25/java-jvm-gc/)  
+
+[理解Java垃圾回收机制](http://jayfeng.com/2016/03/11/%E7%90%86%E8%A7%A3Java%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E6%9C%BA%E5%88%B6/)  
+
+[Java内存分配机制 垃圾回收 GC Root](https://blog.csdn.net/x_i_y_u_e/article/details/50897229)  
+
+[JAVA GC 原理详解](https://segmentfault.com/a/1190000008384410)  
+
+[怎么在面试时回答Java垃圾回收机制（GC）相关问题？](https://www.zhihu.com/question/35164211)  
+
+[Shallow Size、Retained Size、Heap Size和Allocated](https://blog.csdn.net/yincheng886337/article/details/50517375)  
+
+#### 9.5 Bitmap 相关 ####
+
+[Android 开发绕不过的坑：你的 Bitmap 究竟占多大内存？](https://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=403263974&idx=1&sn=b0315addbc47f3c38e65d9c633a12cd6&scene=0#wechat_redirect)  
+
+[Android：你的 Bitmap 究竟占多大内存？](https://blog.csdn.net/guyuelin123/article/details/52860889)  
+
+[Bitmap详解](https://www.jianshu.com/p/bc0d282df160)  
+
+[Android Bitmap最全面详解](https://juejin.im/entry/59b6419d5188257e82675716)  
+
+[Android中BitmapFactory.Options详解](https://blog.csdn.net/haozipi/article/details/47183543)  
+
+[Bitmap详解与Bitmap的内存优化](https://www.jianshu.com/p/8206dd8b6d8b)  
+
+[Android 从具体实例分析Bitmap使用时候内存注意点](https://blog.csdn.net/wuyuxing24/article/details/51675133)  
+
+[总结一下Android中Bitmap图片操作中要注意的地方](https://blog.csdn.net/newbie_coder/article/details/9842995)  
+
+[Android中Bitmap处理注意问题](http://www.cnblogs.com/sxzheng/p/5632977.html)  
+
+[Android 之 Bitmap](https://www.jianshu.com/p/98c88f9ceafa)  
+
+[Bitmap的分析与使用](https://juejin.im/post/5a91158e6fb9a06346201201)  
+
+[Android Bitmap inBitmap 图片复用？](https://www.zhihu.com/question/32232584)  
+
+[ANDROID高效加载图片，有效避免程序OOM](http://stormzhang.com/android/2013/11/20/android-display-bitmaps-efficiently/)  
+
+[8.2.2 Bitmap引起的OOM问题](https://wizardforcel.gitbooks.io/w3school-android/content/108.html)  
+
+#### 9.6 APK 瘦身 ####
+
+[那些你不知道的 APK 瘦身，让你的 APK 更小](https://juejin.im/entry/57cbb192bf22ec006c24ed00)  
+
+[如何将 APK 大小减少 6M 的](https://juejin.im/entry/56c13ad7a633bd00587845e3)  
+
+[我的Android进阶之旅------>Android APP终极瘦身指南](https://blog.csdn.net/ouyang_peng/article/details/51136635)  
+
+[Android 瘦身之道 ---- so文件](https://segmentfault.com/a/1190000008995593)  
+
+[【腾讯Bugly干货分享】Redex初探与Interdex：Andorid冷启动优化](https://blog.csdn.net/tencent_bugly/article/details/53375240)  
+
+#### 9.7 启动优化 ####
+
+[Android性能优化（一）之启动加速35%](https://www.jianshu.com/p/f5514b1a826c)  
+
+[Android性能优化系列之App启动优化](https://blog.csdn.net/u012124438/article/details/56340949)  
+
+[一触即发——App启动优化最佳实践](https://blog.csdn.net/eclipsexys/article/details/53044990)  
+
+[Android APP启动优化](http://wuxiaolong.me/2017/03/13/appStart/)  
+
+[APP启动优化](https://www.fqxyi.com/archives/11/)  
+
+#### 9.8 性能分析工具 ####
+
+[Android App优化之性能分析工具](https://www.jianshu.com/p/da2a4bfcba68)  
+
+[值得推荐的Android应用性能检测工具列表](https://zhuanlan.zhihu.com/p/20416881)  
+
+#### 9.9 TraceView ####
+
+[android核心技术之性能分析工具TraceView](https://blog.csdn.net/hfreeman2008/article/details/53509489)  
+
+[正确使用Android性能分析工具——TraceView](https://bxbxbai.github.io/2014/10/25/use-trace-view/)  
+
+[TraceView工具(Device Monitor)](https://www.kancloud.cn/digest/itfootballprefermanc/100911)  
+
+#### 9.10 内存分析 ####
+
+[Android性能分析工具的使用](http://www.qingpingshan.com/rjbc/az/247684.html)  
+
+[android内存泄露分析工具MAT详解](https://blog.csdn.net/a910626/article/details/50760948)  
+
+[Android内存优化（五）详解内存分析工具MAT](https://blog.csdn.net/itachi85/article/details/77075455)  
+
+[MAT 常用工具详解——内存优化（三）](https://blog.csdn.net/xx326664162/article/details/50084543)  
+
+[MAT - Memory Analyzer Tool 使用进阶](http://www.lightskystreet.com/2015/09/01/mat_usage/)  
+
+[Android内存优化（五）详解内存分析工具MAT](https://cloud.tencent.com/developer/article/1034268)  
 
 ### 10 设计模式相关 ###
 
@@ -501,7 +654,6 @@ categories: 面试知识
 
 [Android 源码中的享元模式——Message 复用原理](https://ivanljt.github.io/blog/2017/08/26/Android-%E6%BA%90%E7%A0%81%E4%B8%AD%E7%9A%84%E4%BA%AB%E5%85%83%E6%A8%A1%E5%BC%8F%E2%80%94%E2%80%94Message%E5%A4%8D%E7%94%A8%E6%9C%BA%E5%88%B6/)  
 
-
 #### 10.8 装饰模式 ####
 
 #### 10.9 代理模式 ####
@@ -512,6 +664,17 @@ categories: 面试知识
 
 #### 10.12 解释器模式 ####
 
+#### 10.13 MVC MVP MVVM原理和区别 ####
+
+[Android----MVC、MVP、MVVM、区别介绍](https://blog.csdn.net/fanguangjun123/article/details/78592771)  
+
+[MVC和MVP在app中的对比分析以及实际应用](https://blog.csdn.net/victoryzn/article/details/78392128)  
+
+[MVC、MVP、MVVM三种区别及适用场合](http://blog.qiji.tech/archives/5692)  
+
+[Android App的设计架构：MVC,MVP,MVVM与架构经验谈](https://www.tianmaying.com/tutorial/AndroidMVC)  
+
+[Android框架 之 MVC, MVP, MVVM](http://vivianking6855.github.io/2017/09/08/Android-Architecture/#%E7%BC%BA%E9%99%B7)  
 
 ### 11 Android 动画相关 ###
 
@@ -522,4 +685,55 @@ categories: 面试知识
 [Android四大视图动画图文详解](https://blog.csdn.net/iispring/article/details/50167405)  
 
 [Android 属性动画总结](https://www.jianshu.com/p/d98f42dee2b1)  
+
+[动画机制总结](http://www.jcodecraeer.com/a/anzhuokaifa/2017/1201/8830.html)  
+
+### 12 插件化、模块化、组件化、热修复、增量更新、Gradle ###
+
+#### 12.1 插件化介绍 ####
+
+[2017 Android插件化框架总结](https://juejin.im/entry/59decdf36fb9a0451c39621b)  
+
+[Android 插件化和热修复知识梳理](https://www.jianshu.com/p/704cac3eb13d)  
+
+[是时候来一波Android插件化了](http://mycommons.cn/2017/10/25/Android-RePlugin/)  
+
+[Android插件化入门指南](http://lruheng.com/2017/07/01/Android%E6%8F%92%E4%BB%B6%E5%8C%96%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/)  
+
+[Android插件化完美实现代码资源加载及原理讲解 附可运行demo](https://blog.csdn.net/yulong0809/article/details/59113935)  
+
+[怎么将 Android 程序做成插件化的形式？](https://www.zhihu.com/question/19981105)  
+
+[Android插件化之Small框架原理](https://ivonhoe.github.io/2018/01/18/Small%E6%A1%86%E6%9E%B6%E5%8E%9F%E7%90%86/)  
+
+[VirtualAPK：滴滴 Android 插件化的实践之路](https://www.ctolib.com/topics-103968.html)  
+
+[美团App 插件化实践](https://tech.meituan.com/android_hydra.html)
+  
+#### 12.2 模块化和组件化 ####
+
+[Android 开发:由模块化到组件化(一)](https://blog.csdn.net/dd864140130/article/details/53645290)
+
+[Android 模块化探索与实践](http://baronzhang.com/blog/Framework/Android-%E6%A8%A1%E5%9D%97%E5%8C%96%E6%8E%A2%E7%B4%A2%E4%B8%8E%E5%AE%9E%E8%B7%B5/)
+
+[Android彻底组件化方案实践](https://www.jianshu.com/p/1b1d77f58e84)
+
+[Android 模块化开发](https://www.jianshu.com/p/0ea37b2c7ce7)
+
+[Android组件化开发实践](https://www.jianshu.com/p/186fa07fc48a)
+
+[关于Android模块化我有一些话不知当讲不当讲](http://www.androidchina.net/7044.html)
+
+[微信Android模块化架构重构实践](https://juejin.im/entry/596c60485188254b772dba2a)
+
+[Android 组件化探索与思考](http://wuxiaolong.me/2017/08/01/ModularExploree/)
+
+#### 12.3 增量更新 ####
+
+[Android 增量更新完全解析 是增量不是热修复](https://blog.csdn.net/lmj623565791/article/details/52761658)
+
+[Android增量更新，热修复，动态加载](https://www.jianshu.com/p/ca943e89a8d5)
+
+[安卓应用增量，热修复，插件技术，让你的App维护起来更方便](http://wemedia.ifeng.com/47991533/wemedia.shtml)
+
 
