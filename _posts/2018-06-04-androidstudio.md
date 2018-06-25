@@ -10,6 +10,9 @@ categories: 开发工具总结
 
 [Android Studio 模板用法与自定义模板 ](https://blog.csdn.net/qJay_Dev/article/details/51278713)  
 
+[android studio自定义类和方法的注释](https://blog.csdn.net/u013168615/article/details/50073257)  
+
+
 [AndroidStudio中代码模板的使用](https://blog.csdn.net/wubihang/article/details/51228752)  
 
 ### 3、AndroidStudio主题设置 ###
