@@ -37,7 +37,7 @@ categories: 面试知识
   
 [彻底弄懂Activity四大启动模式](http://blog.csdn.net/mynameishuangshuai/article/details/51491074)  
 
-#### 1.2 Fragment相关知识点 ####  
+#### 1.2 Fragment相关知识点 ####
 
 [Fragment 各种状态下的生命周期](https://github.com/MaYunFei/FragmentLifeCycleDemo)  
 
@@ -70,8 +70,6 @@ categories: 面试知识
 [之前写的（参考使用）](http://blog.csdn.net/oonullpointeralex/article/details/48015107)
 
 #### 1.5 ContentProvider 相关知识点 #### 
-
-[ContentProvider实例详解](http://blog.csdn.net/amazing7/article/details/51324022)  
 
 [ContentProvider实例详解](http://blog.csdn.net/amazing7/article/details/51324022)  
 
@@ -148,8 +146,6 @@ categories: 面试知识
 
 [安卓开发中Dialog和PopupWindow和新建Activity的使用场景有什么区别?](https://www.zhihu.com/question/37321437)  
 
-[Context都没弄明白，还怎么做Android开发？](https://www.jianshu.com/p/94e0f9ab3f1d)  
-
 #### 3.2 Activity、PhoneWindow、DecorView、R.id.content、WMS、WindowManager、WindowManagerGlobal、ViewRootImpl 关系 ，setContentView源码分析####
 
 [Android View和 Window 的关系](https://cloud.tencent.com/developer/article/1006674)  
@@ -196,8 +192,6 @@ categories: 面试知识
 
 [ListView异步加载图片--图片缓存和错位问题解决方案](https://www.kancloud.cn/digest/androidfrom-0/144445)  
 
-
-
 ### 4 Android事件传递分发 ###
 
 #### 4.1 View事件传递分发 ####
@@ -209,8 +203,6 @@ categories: 面试知识
 [Android事件分发机制 详解攻略，您值得拥有](https://blog.csdn.net/carson_ho/article/details/54136311) 
 
 [Android事件分发机制完全解析，带你从源码的角度彻底理解(上)](https://blog.csdn.net/guolin_blog/article/details/9097463) 
-
-[Android事件分发机制完全解析，带你从源码的角度彻底理解](https://zhuanlan.zhihu.com/p/32686674) 
 
 [Android View的事件分发机制和滑动冲突解决方案](http://www.10tiao.com/html/169/201702/2650822067/1.html) 
 
@@ -257,6 +249,8 @@ categories: 面试知识
 [HenCoder Android 开发进阶: 自定义 View ](https://segmentfault.com/a/1190000012956590)
 
 #### 5.5 TextView 相关 ####
+
+[文字太多？控件太小？试试 TextView 的新特性 Autosizeing 吧！](https://www.cnblogs.com/plokmju/p/8268005.html) 
 
 [View多行文本居中](https://github.com/Idtk/Blog/blob/master/Blog/3%E3%80%81Multi-lineTextCenter.md) 
 
@@ -361,13 +355,13 @@ categories: 面试知识
 
 #### 7.1 Handler 机制详解 ####
 
+[Android消息机制1-Handler(Java层)](http://gityuan.com/2015/12/26/handler-message-framework/)  
+
 [Android中的Thread, Looper和Handler机制(附带HandlerThread与AsyncTask](https://hit-alibaba.github.io/interview/Android/basic/Android-handler-thread-looper.html)  
 
 [ Android异步消息处理机制完全解析，带你从源码的角度彻底理解](https://blog.csdn.net/guolin_blog/article/details/9991569)  
 
 [Android 中 Handler 机制](https://juejin.im/entry/58523ae561ff4b0068432889)  
-
-[Android消息机制1-Handler(Java层)](http://gityuan.com/2015/12/26/handler-message-framework/)  
 
 [Android Handler 机制 - Looper，Message，MessageQueue](https://www.cnblogs.com/rustfisher/p/7272697.html)  
 
@@ -737,3 +731,18 @@ categories: 面试知识
 [安卓应用增量，热修复，插件技术，让你的App维护起来更方便](http://wemedia.ifeng.com/47991533/wemedia.shtml)
 
 
+### 13 API变更 ###
+
+[Android 4.0到8.0版本特性总结](https://www.jianshu.com/p/c459be1ac61c)
+
+[Android O新特性和行为变更总结](https://juejin.im/entry/596316806fb9a06b9b73ae62)
+
+[Android 4.0到8.0版本特性总结](https://www.jianshu.com/p/c459be1ac61c)
+
+[Android 4.0到8.0版本特性总结](https://www.jianshu.com/p/c459be1ac61c)
+
+[Android 4.0到8.0版本特性总结](https://www.jianshu.com/p/c459be1ac61c)
+
+[Android 4.0到8.0版本特性总结](https://www.jianshu.com/p/c459be1ac61c)
+
+[Android 4.0到8.0版本特性总结](https://www.jianshu.com/p/c459be1ac61c)

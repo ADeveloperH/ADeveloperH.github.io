@@ -103,6 +103,8 @@ categories: 面试知识
 
 [Parceable和Serializable都有啥区别？](https://zhuanlan.zhihu.com/p/27193528) 
 
+[ java-Transient关键字、Volatile关键字介绍和序列化、反序列化机制、单例类序列化](https://blog.csdn.net/u010156024/article/details/48345257)    
+
 ### 4 java容器类 ###
 
 [java容器类框架详解](https://adeveloperh.github.io/2017/11/java_collections_framework/)  
@@ -140,8 +142,6 @@ categories: 面试知识
 [Java HashSet工作原理及实现](https://yikun.github.io/2015/04/08/Java-HashSet%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%8F%8A%E5%AE%9E%E7%8E%B0/)    
 
 [HashSet实现原理及源码分析](https://blog.csdn.net/itmyhome1990/article/details/76212556)    
-
-[ java-Transient关键字、Volatile关键字介绍和序列化、反序列化机制、单例类序列化](https://blog.csdn.net/u010156024/article/details/48345257)    
 
 #### 4.4 LinkedHashSet 原理详解 ####
 
@@ -253,6 +253,8 @@ categories: 面试知识
 
 [Java并发——Synchronized及其实现原理](https://www.jianshu.com/p/12514f6cccf1)
 
+[Synchronized的内存可见性](https://blog.csdn.net/u012312373/article/details/44983523)
+
 #### 5.9 volatile相关 #### 
 
 [Java volatile原理总结](https://zhuanlan.zhihu.com/p/29868853)
@@ -274,6 +276,8 @@ categories: 面试知识
 [volatile和Synchronized区别](https://github.com/CharonChui/AndroidNote/blob/master/JavaKnowledge/volatile%E5%92%8CSynchronized%E5%8C%BA%E5%88%AB.md)
 
 [多线程关键字volatile和synchronized区别](http://royleo.xyz/2017/07/20/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%85%B3%E9%94%AE%E5%AD%97volatile%E5%92%8Csynchronized%E5%8C%BA%E5%88%AB/)
+
+[ java-Transient关键字、Volatile关键字介绍和序列化、反序列化机制、单例类序列化](https://blog.csdn.net/u010156024/article/details/48345257)    
 
 #### 5.11 synchronized与Lock的区别 ####
 
