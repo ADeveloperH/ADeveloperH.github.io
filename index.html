@@ -20,17 +20,17 @@ layout: default
 
 </div>
 
-<!--<div class="post-category">
-	<!-- 声明排序后的数值 -->
+<!-- <div class="post-category">
+	声明排序后的数值
 	{% assign sorted_categories  = site.categories %}
     {% for category in sorted_categories %}
       <h1 id="{{ category[0] }}-ref">{{ category[0] }}</h1>
 	  </br>
       <ul class="post-list">
-	  <!-- 如果想要反向排序使用：{% assign sorted_posts  = category[1] | sort | reverse %} -->
+	  如果想要反向排序使用：{% assign sorted_posts  = category[1] | sort | reverse %}
 		{% assign sorted_posts  = category[1] | sort %}
-        {% for post in sorted_posts %}  <!-- 遍历类别下所有 post -->
-            <!-- <li><a href="{{ post.url }}">{{ post.title }}</a></li> -->
+        {% for post in sorted_posts %}  遍历类别下所有 post
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
 			 <li>
 				<h2 class="post-list__post-title post-title"><a href="{{ post.url }}" title="访问 {{ post.title }}"><font color='blue'>{{ post.title }}</font></a></h2>
 				<p class="excerpt">{{ post.content | strip_html | strip_newlines | truncate: 50 }}&hellip;</p>
@@ -40,4 +40,4 @@ layout: default
         {% endfor %}
 	 </ul>
     {% endfor %}
-</div>-->
+</div> -->
