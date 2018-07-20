@@ -60,6 +60,16 @@ Generate Signed APK：生成有签名的apk。
 对于Clean和Rebuild看到最后的效果是一样的。平时小的改动直接用Make Project就可以，可以看到只有它有快捷方式，表明这个功能要经常用。对于一些大的改动比如更新lib，大功能修改等，用Clean或Rebuild，毕竟这两个编译起来要费时间。
 如果有的时候死活编译不过，多试试Clean吧，会有意想不到的效果！
 
+### 5.2 如何选择 compileSdkVersion, minSdkVersion 和 targetSdkVersion ###
+
+[如何选择 compileSdkVersion, minSdkVersion 和 targetSdkVersion](https://chinagdg.org/2016/01/picking-your-compilesdkversion-minsdkversion-targetsdkversion/)  
+
+[如何选择 compileSdkVersion, minSdkVersion 和 targetSdkVersion](https://github.com/yubenben/android_learning_notes/blob/master/src/Android%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9A%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9compileSdkVersion%2CminSdkVersion%E5%92%8CtargetSdkVersion.md)  
+
+[如何选择 compileSdkVersion, minSdkVersion 和 targetSdkVersion](https://blog.csdn.net/a_long_/article/details/77094237)  
+
+[AndroidStudio、gradle、buildToolsVersion关系](https://blog.csdn.net/lixin88/article/details/61196274)  
+
 #### 5.2 build.gradle 文件 ####
 - Project:build.gradle是用来配置项目的构建任务.	默认的build.gradle内容如下:
 ```java
