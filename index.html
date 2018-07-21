@@ -27,8 +27,9 @@ layout: default
       <h1 id="{{ category[0] }}-ref">{{ category[0] }}</h1>
 	  </br>
       <ul class="post-list">
-	  <!-- 如果想要反向排序使用：{% assign sorted_posts  = category[1] | sort | reverse %} -->
-		{% assign sorted_posts  = category[1] | sort %}
+	  <!-- 反向排序使用：-->
+	  {% assign sorted_posts  = category[1] | sort | reverse %} 
+		<!-- {% assign sorted_posts  = category[1] | sort %} -->
         {% for post in sorted_posts %}  <!-- 遍历类别下所有 post -->
             <!-- <li><a href="{{ post.url }}">{{ post.title }}</a></li> -->
 			 <li>
