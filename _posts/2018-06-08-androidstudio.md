@@ -40,6 +40,8 @@ categories: 开发工具总结
 - AndroidStudio运行翻译编辑器（可查看是否遗漏）：  
 打开res文件夹，然后打开values文件夹找到string.xml文件夹，右键单击strings.xml（不是文件夹），选择Open Translations Editor管理String资源翻译编辑器提供了查看所有你的string资源的视图和当前的本地化翻译。可以在视图中进行操作。
 
+- [Android 自动消除无用 improt](https://blog.csdn.net/qq_23547831/article/details/50618469) 
+
 ### 5、编译打包相关、 ###
 
 #### 5.1 Android Studio中Make Project，Clean Project，Rebuild Project区别  #### 
