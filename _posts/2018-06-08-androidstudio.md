@@ -14,7 +14,6 @@ categories: 开发工具总结
 
 ### 2、常用模板及自定义模板 ###
 
-
 [android studio自定义类和方法的注释](https://blog.csdn.net/u013168615/article/details/50073257)  
 
 
@@ -151,3 +150,13 @@ compile	'com.android.support:appcompat-v7:23.4.0'
 }
 ```
 模块构建配置文件:build.gradle也可以在项目结构中配置
+
+#### 5.3 下载依赖包 time out ####
+
+解决方案：
+
+[JCenter下载太慢？教你修改Maven仓库地址为国内镜像](https://blog.csdn.net/ALLsharps/article/details/51895624)  
+
+[解决android studio引用远程仓库下载慢(JCenter下载慢)](https://blog.csdn.net/linglingchenchen/article/details/62236723?locationNum=10&fps=1)  
+
+[阿里云仓库](http://maven.aliyun.com/mvn/view)  
