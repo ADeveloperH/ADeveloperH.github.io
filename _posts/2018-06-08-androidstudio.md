@@ -12,6 +12,12 @@ categories: 开发工具总结
 
 [SQLScout (SQLite Support) ](https://plugins.jetbrains.com/plugin/8322-sqlscout-sqlite-support-)  
 
+3、Translation
+
+翻译插件 GitHub 地址：
+
+[TranslationPlugin](https://github.com/YiiGuxing/TranslationPlugin)  
+
 ### 2、常用模板及自定义模板 ###
 
 [android studio自定义类和方法的注释](https://blog.csdn.net/u013168615/article/details/50073257)  
