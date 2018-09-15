@@ -59,6 +59,12 @@ categories: 面试知识
 
 [关于Android Service真正的完全详解，你需要知道的一切](http://blog.csdn.net/javazejian/article/details/52709857)  
 
+[Android 多线程之IntentService 完全详解](https://blog.csdn.net/javazejian/article/details/52426425)
+
+[Android 多线程之HandlerThread 完全详解](https://blog.csdn.net/javazejian/article/details/52426353)    
+
+[android Service stopSelf(int startId)与stopSelf()的区别](https://blog.csdn.net/mingli198611/article/details/8782772) 
+
 #### 1.4 BroadcastReceiver广播相关知识点  ####
 
 [Android开发之BroadcastReceiver详解](http://blog.csdn.net/fengyuzhengfan/article/details/38414625)  
