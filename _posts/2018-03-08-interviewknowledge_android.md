@@ -77,7 +77,7 @@ categories: 面试知识
 
 #### 1.5 ContentProvider 相关知识点 #### 
 
-[ContentProvider实例详解](http://blog.csdn.net/amazing7/article/details/51324022)  
+[ContentProvider解析](https://www.jianshu.com/p/15af65d4f7d4)  
 
 [ContentProvider详解](http://www.dxjia.cn/2016/01/27/ContentProvider/)  
 
