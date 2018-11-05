@@ -79,3 +79,60 @@ categories: android知识
 [屏幕适配问题汇总及解决 ](https://github.com/Blankj/AndroidUtilCode/issues/597)  
 
 [骚年你的屏幕适配方式该升级了!-今日头条适配方案](https://juejin.im/post/5b7a29736fb9a019d53e7ee2)  
+
+
+### 5 Android 权限适配 ###
+
+[Android M 运行时权限实践全解析](https://www.jianshu.com/p/33a31c967d5e)  
+
+[一句代码搞定权限请求，从未如此简单](https://www.jianshu.com/p/c69ff8a445ed)  
+
+[Android6.0动态权限shouldShowRequestPermissionRationale的含义](https://blog.csdn.net/wangpf2011/article/details/80589648)  
+
+[官：在运行时请求权限](https://developer.android.com/training/permissions/requesting?hl=zh-cn)  
+
+[官：系统权限](https://developer.android.com/guide/topics/security/permissions?hl=zh-cn#normal-dangerous)  
+
+### 6 进程保活相关（应用锁需求） ###
+
+[Android进程保活招数概览](https://www.jianshu.com/p/c1a9e3e86666)  
+
+[Tinker隐藏Notification方案](https://github.com/Tencent/tinker/blob/master/tinker-android/tinker-android-lib/src/main/java/com/tencent/tinker/lib/service/TinkerPatchService.java)  
+
+[android进程保活实践](https://www.jianshu.com/p/53c4d8303e19)  
+
+[android进程保活实践：下篇](https://www.jianshu.com/p/7cdae4f7763a)  
+
+[Android通过JobScheduler与设置前台服务实现进程保活](https://www.jianshu.com/p/f9322c15579a)  
+
+[Android 进程常驻（0）----MarsDaemon使用说明](https://blog.csdn.net/marswin89/article/details/50917098)  
+
+[后台执行限制](https://developer.android.google.cn/about/versions/oreo/background#broadcasts)  
+
+[进程保活方案](https://www.jianshu.com/p/845373586ac1)  
+
+[关于 Android 进程保活，你所需要知道的一切](https://www.jianshu.com/p/63aafe3c12af)  
+
+
+[Android AppLock(应用锁)开发](https://www.jianshu.com/p/dff749ae2339)  
+
+[通过 ANDROID 辅助功能「ACCESSIBILITY SERVICE」 检测任意前台界面](http://effmx.com/articles/tong-guo-android-fu-zhu-gong-neng-accessibility-service-jian-ce-ren-yi-qian-tai-jie-mian/)  
+
+### 7 添加 Window 权限适配 ###
+
+```java
+总结：
+API <= 24(7.0) 使用 TYPE_TOAST 漏洞可以不用申请权限，直接显示
+API >= 25(7.1.1) TYPE_TOAST 漏洞已修复，需要申请“允许显示在其他应用上层”权限，使用 TYPE_SYSTEM_ALERT
+API >= 26(8.0) 系统将会限制 TYPE_TOAST 的使用，会直接抛出异常，使用 TYPE_APPLICATION_OVERLAY
+
+```
+
+[Android 悬浮窗权限各机型各系统适配大全](https://blog.csdn.net/self_study/article/details/52859790)  
+
+[FloatWindowPermission](https://github.com/zhaozepeng/FloatWindowPermission)  
+
+[Android悬浮窗遇到的那些坑](https://www.jianshu.com/p/2229d4a12269)  
+
+[FFloater](https://github.com/ChristianFF/FFloater)  
+
