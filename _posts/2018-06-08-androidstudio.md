@@ -166,3 +166,11 @@ compile	'com.android.support:appcompat-v7:23.4.0'
 [解决android studio引用远程仓库下载慢(JCenter下载慢)](https://blog.csdn.net/linglingchenchen/article/details/62236723?locationNum=10&fps=1)  
 
 [阿里云仓库](http://maven.aliyun.com/mvn/view)  
+
+解决方案二：
+```java
+
+将 gradle 中 google() 放在第一行
+
+
+```

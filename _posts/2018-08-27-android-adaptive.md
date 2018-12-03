@@ -6,6 +6,12 @@ categories: android知识
 
 ### 1 Android Icon 设置 ###
 
+[Android应用图标微技巧，8.0系统中应用图标的适配](https://blog.csdn.net/guolin_blog/article/details/79417483)  
+  
+[Android O 新特性介绍：自适应图标（Adaptive Icons）](https://sspai.com/post/38431)  
+  
+[Android O 自适应图标的意义何在？Google 设计师给你答案 | 科普](https://sspai.com/post/40230)  
+  
 [Android Asset Studio](https://romannurik.github.io/AndroidAssetStudio/index.html)  
   
 [使用 Image Asset Studio 创建应用图标（官网）](https://developer.android.com/studio/write/image-asset-studio?hl=zh-cn)  
@@ -105,6 +111,10 @@ categories: android知识
 
 [Android通过JobScheduler与设置前台服务实现进程保活](https://www.jianshu.com/p/f9322c15579a)  
 
+[Android应用保活四步曲](https://blog.csdn.net/joye123/article/details/79644567)  
+
+[Android 进程保活--无限播放音乐](https://blog.csdn.net/u013933720/article/details/78277772)  
+
 [Android 进程常驻（0）----MarsDaemon使用说明](https://blog.csdn.net/marswin89/article/details/50917098)  
 
 [后台执行限制](https://developer.android.google.cn/about/versions/oreo/background#broadcasts)  
@@ -136,3 +146,42 @@ API >= 26(8.0) 系统将会限制 TYPE_TOAST 的使用，会直接抛出异常�
 
 [FFloater](https://github.com/ChristianFF/FFloater)  
 
+[Android判断应用或Activity是否存在](https://blog.csdn.net/u013205165/article/details/53607939)  
+
+[根据机型适配跳转到权限设置页面](https://stackoverflow.com/questions/44383983/how-to-programmatically-enable-auto-start-and-floating-window-permissions-how-t)  
+
+[根据机型适配跳转到权限设置页面2](https://stackoverflow.com/questions/48945300/how-to-open-window-of-autostart-application-for-all-devices)  
+
+[根据机型适配跳转到权限设置页面3](https://stackoverflow.com/questions/36035284/how-to-enable-auto-start-for-an-app-in-xiaomi-programmatically)  
+
+[根据机型适配跳转到权限设置页面4](https://www.ctolib.com/article/comments/26861)  
+
+
+### 8 Android 7.0 FileProvider 适配 ###
+
+[Android 7.0 行为变更 通过FileProvider在应用间共享文件吧](https://mp.weixin.qq.com/s/0BFFoyJdrzkfk6k66tHtyA)  
+
+[解决 Android N 7.0 上 报错：android.os.FileUriExposedException](https://blog.csdn.net/yy1300326388/article/details/52787853)  
+
+[使用FileProvider解决file:// URI引起的FileUriExposedException](http://gelitenight.github.io/android/2017/01/29/solve-FileUriExposedException-caused-by-file-uri-with-FileProvider.html)  
+
+[Android打开指定文件实践 工具类](https://juejin.im/post/5a39e330518825258b742867)  
+
+### 9 AlarmManager 使用 ###
+
+[关于android的alarmmanager使用过程中的坑(包括魅族手机休眠后无法启动闹钟的问题)](https://www.jianshu.com/p/6be84993d2f7)  
+
+[定时任务，AlarmManager使用](https://www.cnblogs.com/ProtectedDream/p/6351447.html)  
+
+
+### 10 AccessibilityService 使用 ###
+
+[Android辅助功能AccessibilityService的使用](https://blog.csdn.net/u011965040/article/details/53257005)  
+
+[Android辅助功能原理与基本使用详解-AccessibilityService](https://www.cnblogs.com/popfisher/p/7455754.html)  
+
+[AccessibilityService 从入门到出轨](https://juejin.im/post/584bd285a22b9d0058d7713e)  
+
+[Android自动化测试中AccessibilityService获取控件信息（1）](https://blog.csdn.net/itfootball/article/details/21953763)  
+
+[AccessibilityService分析与防御](https://lizhaoxuan.github.io/2018/01/27/AccessibilityService%E5%88%86%E6%9E%90%E4%B8%8E%E9%98%B2%E5%BE%A1/)  

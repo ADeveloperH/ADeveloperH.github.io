@@ -55,5 +55,66 @@ categories: android知识
 [高等数学图形与动画：目录 ](http://xuxzmail.blog.163.com/blog/static/251319162009614101444586/)  
 
 
+### 4 九宫格手势锁实现  ###
 
+#### 4.1 参考 ####
+
+[PatternLocker](https://github.com/ihsg/PatternLocker)  
+
+#### 4.2 发光效果实现 ####
+
+[自定义View-第十四步：setShadowLayer阴影与SetMaskFilter发光效果](https://www.jianshu.com/p/2f1024f9c554)  
+
+[Android 画笔Paint](http://wuxiaolong.me/2016/08/20/Paint/)  
+
+[Android 画布Canvas](http://wuxiaolong.me/2016/08/27/Canvas/)  
+
+[Android Canvas 方法总结](https://www.jianshu.com/p/f69873371763)  
+
+[Android 圆角、圆形 ImageView 实现](https://juejin.im/post/5b305f73f265da59b653b08d)  
+
+#### 4.3 判断九宫格两点直线间是否包含其他点，判断三点共线 ####
+
+[三点共线判断](http://yiminghe.iteye.com/blog/568666)  
+
+[三点共线判断算法](http://oofoof.blog.163.com/blog/static/192924037201111882549437/)  
+
+[海伦公式](https://baike.baidu.com/item/%E6%B5%B7%E4%BC%A6%E5%85%AC%E5%BC%8F)  
+
+```java
+
+判断九宫格两点直线间是否包含其他点总结：
+1、九宫格点较少，直接使用穷举法
+2、满足一下条件(两点分别为S(x1,y1),E(x2,y2),x = id / 3 , y = id % 3))：
+a.|x1-x2| > 1 || |y1-y2|>1
+b.在两点的范围内遍历[S,E]
+c.三点共线，利用海伦面积公式：p=a || p=b || p=c
+d.找到一个点遍历即可结束
+
+````
+
+
+### 5 拖拽删除动画 ###
+
+#### 5.1 RecyclerView 之 SnapHelper 实现 ViewPager 效果 ####
+
+[使用 RecyclerView 实现 Gallery 画廊效果，并控制 Item 停留位置](http://godcoder.me/2017/02/06/%E4%BD%BF%E7%94%A8%20RecyclerView%20%E5%AE%9E%E7%8E%B0%20Gallery%20%E7%94%BB%E5%BB%8A%E6%95%88%E6%9E%9C%EF%BC%8C%E5%B9%B6%E6%8E%A7%E5%88%B6%20Item%20%E5%81%9C%E7%95%99%E4%BD%8D%E7%BD%AE/)  
+
+[Android中使用RecyclerView + SnapHelper实现类似ViewPager效果](https://www.jianshu.com/p/ef3a3b8d0a77)  
+
+[仿微信朋友圈发表图片拖拽和删除功能](https://www.jianshu.com/p/373010a9f759)  
+
+
+#### 5.2 RecyclerView 之 ItemTouchHelper 实现拖拽####
+
+[仿微信朋友圈发表图片拖拽和删除功能](https://www.jianshu.com/p/373010a9f759)  
+
+[DragPhotoView](https://github.com/githubwing/DragPhotoView)  
+
+
+### 6 Shape 相关 ###
+
+#### 6.1 Shape 实现三角形气泡背景效果 ####
+
+[Android 通过 shape 实现三角形气泡效果](https://blog.csdn.net/hust_twj/article/details/78600789)  
 

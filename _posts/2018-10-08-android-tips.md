@@ -71,3 +71,27 @@ ANR 如下(主要集中在 5.0 和 5.1 三星等手机上)：
 [官：SharedPreferences.Editor](https://developer.android.com/reference/android/content/SharedPreferences.Editor.html#apply())  
 
 
+### 3 Manifest 中属性相关 ###
+
+[AndroidManifest.xml文件--Application详解](https://www.jianshu.com/p/f535c0f6f65f)  
+
+[(转) Android 让应用手动管理应用的数据目录](http://light3moon.com/2015/01/26/[%E8%BD%AC]%20Android%20%E8%AE%A9%E5%BA%94%E7%94%A8%E6%89%8B%E5%8A%A8%E7%AE%A1%E7%90%86%E5%BA%94%E7%94%A8%E7%9A%84%E6%95%B0%E6%8D%AE%E7%9B%AE%E5%BD%95/)  
+
+[Android Activity标签属性](https://www.jianshu.com/p/8598825222cc)  
+
+
+### 4 Glide 相关 ###
+
+#### 4.1 Glide 加载应用图标 ####
+
+[Manage all your Glides in a single class with GlideAppModule on Android](https://medium.com/@nuhkocaa/manage-all-your-glides-in-a-single-class-with-glidemodule-on-android-4856ee4983a1)  
+
+[Glide4.x加载应用图标](https://blog.csdn.net/jallv/article/details/83618504)  
+
+
+#### 5 Dialog 相关 ####
+
+#### 5.1 自定义的AlertDialog无法弹出键盘 ####
+
+[自定义的AlertDialog无法弹出键盘](https://blog.csdn.net/zxyyohou/article/details/80338222)  
+
