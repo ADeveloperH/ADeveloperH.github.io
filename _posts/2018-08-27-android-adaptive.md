@@ -185,3 +185,8 @@ API >= 26(8.0) 系统将会限制 TYPE_TOAST 的使用，会直接抛出异常�
 [Android自动化测试中AccessibilityService获取控件信息（1）](https://blog.csdn.net/itfootball/article/details/21953763)  
 
 [AccessibilityService分析与防御](https://lizhaoxuan.github.io/2018/01/27/AccessibilityService%E5%88%86%E6%9E%90%E4%B8%8E%E9%98%B2%E5%BE%A1/)  
+
+
+### 11 Android 自定义应用选择器 ###
+
+[Android-自定义应用选择器](https://www.jianshu.com/p/3f65576f89b7)  

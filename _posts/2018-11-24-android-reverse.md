@@ -114,9 +114,35 @@ adb shell wm size :查看屏幕分辨率
 
 
 ```
+### 4 文件解析 ###
 
-### 4 readelf 工具使用及 so 文件解析 ###
+#### 4.1 readelf 工具使用及 so 文件解析 ####
 
 [windows 安装cygwin教程](https://blog.csdn.net/chunleixiahe/article/details/55666792)
 
-  
+#### 4.2 XML 解析 ####
+
+```java
+
+方法一：使用 SDK 提供的 aapt 来解析，命令如下：
+
+命令1：输出所有的资源信息
+
+D:\SDK\build-tools\28.0.3\aapt l -a E:\DEX\apk\zz.dela.cmcc.traffic_47.apk > E:\reversetool\aapt\result.txt
+
+命令2：查看需要查看的资源文件xml
+
+D:\SDK\build-tools\28.0.3\aapt dump xmltree E:\DEX\apk\zz.dela.cmcc.traffic_47.apk  res/layout/activity_set_gesturelock_explain.xml> E:\reversetool\aapt\result.txt
+
+方法二：自己解析 xml 具体代码已上传 github
+
+方法三：使用下边的 apktool 工具进行解析
+```
+
+#### 4.3 apktool 使用 ####
+
+[Android APK反编译 apktool使用教程](https://blog.csdn.net/ysc123shift/article/details/52985435)
+
+[APKTool 官网](https://blog.csdn.net/chunleixiahe/article/details/55666792)
+
+#### 4.4 resource.arsc 文件解析 ####
