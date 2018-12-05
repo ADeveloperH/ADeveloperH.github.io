@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 逆向基础篇
-categories: android 逆向
+categories: android逆向
 ---
 
 ### 1 Android 锁屏密码加密分析 ###
