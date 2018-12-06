@@ -225,3 +225,107 @@ d2j-dex2jar.bat xxx.dex
 [Android 反编译利器，jadx 的高级技巧](https://segmentfault.com/a/1190000012180752)
 
 
+### 6 安全防护 ###
+
+#### 6.1 签名信息校验保护 ####
+
+```java
+
+获取签名信息的 MD5 值：
+
+	public static String getSingnature(Context context) {
+        Context applicationContext = context.getApplicationContext();
+        try {
+            PackageInfo packageInfo = applicationContext.getPackageManager().getPackageInfo(applicationContext.getPackageName(), PackageManager.GET_SIGNATURES);
+            Signature[] signatures = packageInfo.signatures;
+            StringBuilder stringBuilder = new StringBuilder();
+            for (Signature signature : signatures) {
+                stringBuilder.append(signature.toCharsString());
+            }
+            return stringBuilder.toString();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return "";
+    }
+
+    public static String md5Encode(String strRes) {
+        if (TextUtils.isEmpty(strRes)) {
+            return "";
+        }
+        try {
+            MessageDigest messageDigest = MessageDigest.getInstance("MD5");
+            byte[] digest = messageDigest.digest(strRes.getBytes());
+            StringBuilder stringBuilder = new StringBuilder();
+            for (byte b : digest) {
+                // 这里的是为了将原本是byte型的数向上提升为int型，从而使得原本的负数转为了正数
+                int num = b & 0xff;
+                //这里将int型的数直接转换成16进制表示
+                String hex = Integer.toHexString(num);
+                if (hex.length() == 0) {
+                    stringBuilder.append(0);
+                }
+                stringBuilder.append(hex);
+            }
+            return new String(digest);
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
+        return "";
+    }
+
+    public static String getMD5Signature(Context context) {
+        return md5Encode(getSingnature(context));
+    }
+
+
+```
+
+扩展：
+
+1、MD5 消息摘要算法原理：MD5以512位分组来处理输入的信息，且每一分组又被划分为16个32位子分组，经过了一系列的处理后，算法的输出由四个32位分组组成，将这四个32位分组级联后将生成一个128位散列值（固定）。  
+128位=128bit=16byte  
+1位16进制=4bit  
+因此：MD5 最终结果可以用 32 位 16 进制数表示
+
+2、知识回顾：  
+a:原码、反码、补码？  
+反码=原码除符号位外取反  
+补码=反码 + 1  
+正数：原码=反码=补码  
+计算机中存储的二进制是补码  
+```java  
+
+举例：  
+byte b = -2  
+原码：1000 0010  
+反码：1111 1101  
+补码：1111 1110
+
+````
+
+3、为什么每个 byte 都要 &0xff?
+原因：最终的目的是为了输出 16 进制的数，将 byte 转化为 2 位 16 进制的数（1 位 16 进制 = 4 bit，1 byte = 8 bit = 2 位 16 进制）。byte 没有提供转为 16 进制的方法，这里将 byte 转为 int，利用 Integer.toHexString 将其转为 16 进制的数输出。
+
+```java  
+
+byte(8 bit) -> int(4 byte = 32bit) 类型的过程中，高位需要进行补位
+补位的规则：无符号的（如 char）高位直接补 0 ，有符号（如 byte）的，符号位为 1（负数）高位补 1，符号位为 0（正数）高位补 0  
+例如：
+byte b = -2 -> int(16进制应该表示为：0xfe)
+补位后：-2（int）：1111 1111 1111 1111 1111 1111 1111 1110  （16进制 0xfffffffe）  
+&0xff即：0000 0000 0000 0000 0000 0000 1111 1111
+最终的结果为：0000 0000 0000 0000 0000 0000 1111 1110
+
+&0xff 实现的效果是 byte 转 int 进行补位后将负数的高 24 位（补位的）清除，取低 8 位，保持二进制的一致性
+
+```
+
+[byte为什么要与上0xff？](http://www.cnblogs.com/think-in-java/p/5527389.html)
+
+[MD5算法循环中为什么会有 & 0XFF](https://blog.csdn.net/qq_18182057/article/details/78749295)
+
+[java的md5算法中，为什么要将每个字节都&0xff?](https://blog.csdn.net/yulongkuke/article/details/46607127)
+
+[《Md5加密中为什么要 & 0xff》](https://blog.csdn.net/u013008795/article/details/63683431)
+
