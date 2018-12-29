@@ -157,6 +157,76 @@ API >= 26(8.0) 系统将会限制 TYPE_TOAST 的使用，会直接抛出异常�
 [根据机型适配跳转到权限设置页面4](https://www.ctolib.com/article/comments/26861)  
 
 
+#### 7.1 Window 全屏设置 ####
+
+```java
+
+实现：当手机开启导航栏时仍然全屏
+
+ public WindowManager.LayoutParams getWindowParams() {
+        WindowManager.LayoutParams layoutParams;
+        if (!PermissionUtil.isOverMarshmallow()) {
+            // < 6.0 使用 TYPE_TOST
+            if (RomUtils.checkIsOppoRom()) {
+                layoutParams = new WindowManager.LayoutParams(-1, -1, WindowManager.LayoutParams.TYPE_PRIORITY_PHONE, 263176, TRANSLUCENT);
+            } else {
+                layoutParams = new WindowManager.LayoutParams(-1, -1, WindowManager.LayoutParams.TYPE_TOAST, 263176, TRANSLUCENT);
+            }
+        } else {
+            if (PermissionUtil.isOverO()) {
+                // >= 8.0
+                layoutParams =  new WindowManager.LayoutParams(-1, -1, WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY, 263176, TRANSLUCENT);
+            } else {
+                layoutParams = new WindowManager.LayoutParams(-1, -1, WindowManager.LayoutParams.TYPE_SYSTEM_ALERT, 263176, TRANSLUCENT);
+            }
+        }
+        layoutParams.screenOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT;
+		//布局不受限制
+        layoutParams.flags |= WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS;
+        layoutParams.x = 0;
+        layoutParams.y = 0;
+        NoxApplication context = NoxApplication.getInstance();
+        WindowManager mWm = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
+        Display display = mWm.getDefaultDisplay();
+        Point p = new Point();
+        display.getRealSize(p);
+        int statusHeight = ScreenUtil.getStatusHeight(NoxApplication.getInstance());
+        Log.d("hj", "WindowPermissionHelper.getWindowParams: statusHeight:" + statusHeight);
+        int navigationHeight = ScreenUtil.getNavigationHeight(NoxApplication.getInstance());
+        Log.d("hj", "WindowPermissionHelper.getWindowParams: navigationHeight:" + navigationHeight);
+        layoutParams.width = p.x;
+        layoutParams.height = p.y + navigationHeight;
+        Log.d("hj", "WindowPermissionHelper.getWindowParams: height:" + p.y);
+        Log.d("hj", "WindowPermissionHelper.getWindowParams: width:" + p.x);
+        return layoutParams;
+    }
+
+	
+	View childAt = topBar.getChildAt(0);
+    LinearLayout.LayoutParams layoutParams = (LinearLayout.LayoutParams) childAt.getLayoutParams();
+    layoutParams.topMargin = ScreenUtil.getNavigationHeight(this);
+
+```
+
+
+[Android 如何让悬浮窗口覆盖显示在导航栏之上？](https://blog.csdn.net/wangjicong_215/article/details/72629126)  
+
+[像360悬浮窗那样，用WindowManager实现炫酷的悬浮迷你音乐盒（上）](https://www.jianshu.com/p/95ceb0a2ed27)  
+
+#### 7.2 Window 中监听返回键 ####
+
+[在Activity，Service，Window中监听Home键和返回键的一些思考，如何把事件传递出来的做法！](https://blog.csdn.net/qq_26787115/article/details/52260393)  
+
+[官网：Window 各种 Flag 详解](https://developer.android.com/reference/android/view/WindowManager.LayoutParams)
+
+```java
+
+注意：主要的限制在 FLAG_NOT_FOCUSABLE，WindowManager.LayoutParams.flags 中不能设置该 flag，否则监听不到返回键
+可以使用：windowParams.flags &= ~FLAG_NOT_FOCUSABLE 消除该 flag
+
+```  
+
+
 ### 8 Android 7.0 FileProvider 适配 ###
 
 [Android 7.0 行为变更 通过FileProvider在应用间共享文件吧](https://mp.weixin.qq.com/s/0BFFoyJdrzkfk6k66tHtyA)  

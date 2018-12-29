@@ -111,6 +111,8 @@ adb logcat:查看日志
 
 adb shell wm size :查看屏幕分辨率
 
+ 
+ls -al |grep noxlck |wc -l： |grep noxlck 查找包含 noxlck 的，|wc -l 按行统计数量
 
 
 ```
