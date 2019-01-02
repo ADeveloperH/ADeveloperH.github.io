@@ -88,10 +88,18 @@ android {
 
 #### 2.2 Android App Bundles ####
 
+[Android App Bundle探索](https://juejin.im/entry/5b13644a6fb9a01e842b0779)  
+
+[Android组件化]Android app Bundle](https://juejin.im/post/5b51d06cf265da0f96288ad1)  
+
+[Android动态化框架App Bundles](https://zhuanlan.zhihu.com/p/38481475)  
+
+[Android App Bundle 使用流程（codelabs）](https://codelabs.developers.google.com/codelabs/your-first-dynamic-app/index.html?index=..%2F..index#0)  
+
+[Android App Bundle Demo](https://github.com/coderEvolve/Android-App-Bundle-Demo)  
+
 [使用 Android App Bundle 提供应用和用户所需功能](https://support.google.com/googleplay/android-developer/answer/9006925)  
 
 [Android App Bundle 官网](https://developer.android.com/platform/technology/app-bundle/)  
 
 [About Android App Bundles 官网](https://developer.android.com/guide/app-bundle/)  
-
-[APK瘦身神器：Android App Bundles-让应用体积减少25%](https://juejin.im/entry/5b09007e518825389970ea17)  
