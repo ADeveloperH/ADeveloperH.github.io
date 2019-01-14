@@ -15,6 +15,14 @@ categories: android知识
 改变系统语言后，重新进入处于后台的APP，会重走onCreate方法：
 [Android如何去处理运行时配置的改变？](https://www.jianshu.com/p/fdf368fd1ecc)  
 
+#### 1.1 阿拉伯语适配（RTL） ####
+
+[双向性](https://www.mdui.org/design/usability/bidirectionality.html#)  
+
+[Android RTL 及小语种 适配](https://nomasp.com/2017/12/05/Android-RTL-Language/)  
+
+[Android阿拉伯适配rtl](https://www.jianshu.com/p/4ada88074ce4)  
+
 
 ### 2 SharedPreference 导致 ANR  ###
 

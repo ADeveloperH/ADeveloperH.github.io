@@ -118,3 +118,36 @@ d.找到一个点遍历即可结束
 
 [Android 通过 shape 实现三角形气泡效果](https://blog.csdn.net/hust_twj/article/details/78600789)  
 
+### 7 Shimmer 微光效果实现 ###
+
+
+[facebook 开源地址](https://github.com/facebook/shimmer-android)  
+
+[shimmer 官方文档](http://facebook.github.io/shimmer-android/)  
+
+[shimmer Text 开源地址](https://github.com/RomainPiel/Shimmer-android)  
+
+
+```java  
+
+引入 shimmer build 失败需要执行的命令（在上边的官方文档里）：
+Install the latest code to your local repository
+gradlew shimmer:installArchives
+
+Install the sample app
+gradlew sample:installDebug
+
+````
+
+
+### 8 lottie 实现 ###
+
+[lottie 开源地址](https://github.com/airbnb/lottie-android)  
+
+[lottie 官方文档](http://airbnb.io/lottie/android/android.html)  
+
+[lottie 支持的 UI 特性](http://airbnb.io/lottie/supported-features.html)  
+
+#### 8.1 AE 安装及使用教程 ####
+
+[AE 安装](http://www.dayanzai.me/after-effects-cc-2014.html)  

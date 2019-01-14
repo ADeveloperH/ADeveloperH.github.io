@@ -90,7 +90,7 @@ android {
 
 [Android App Bundle探索](https://juejin.im/entry/5b13644a6fb9a01e842b0779)  
 
-[Android组件化]Android app Bundle](https://juejin.im/post/5b51d06cf265da0f96288ad1)  
+[Android组件化 Android app Bundle](https://juejin.im/post/5b51d06cf265da0f96288ad1)  
 
 [Android动态化框架App Bundles](https://zhuanlan.zhihu.com/p/38481475)  
 
@@ -103,3 +103,13 @@ android {
 [Android App Bundle 官网](https://developer.android.com/platform/technology/app-bundle/)  
 
 [About Android App Bundles 官网](https://developer.android.com/guide/app-bundle/)  
+
+```java
+
+常见错误：  
+1.<fusing> element is missing the 'include' attribute  
+解决方案：https://stackoverflow.com/questions/50869694/android-app-bundle-build-error-fusing-element-is-missing-the-include-attrib  
+just add "dist:" 如：dist:include="false"
+
+
+````

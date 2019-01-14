@@ -260,3 +260,22 @@ API >= 26(8.0) 系统将会限制 TYPE_TOAST 的使用，会直接抛出异常�
 ### 11 Android 自定义应用选择器 ###
 
 [Android-自定义应用选择器](https://www.jianshu.com/p/3f65576f89b7)  
+
+
+
+### 12 迎接 Androidx ###
+
+问题：
+
+[Androidx和Android support库共存问题解决](https://www.jianshu.com/p/f7a7a8765294)  
+
+[Android:你好,androidX！再见,android.support](https://www.jianshu.com/p/41de8689615d)  
+
+
+参考：
+
+[support 库官网](https://developer.android.com/topic/libraries/support-library/revisions)  
+
+[AndroidX Overview 官网](https://developer.android.com/jetpack/androidx/)  
+
+[Migrating to AndroidX](https://developer.android.com/jetpack/androidx/migrate)  
