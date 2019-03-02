@@ -151,3 +151,5 @@ gradlew sample:installDebug
 #### 8.1 AE 安装及使用教程 ####
 
 [AE 安装](http://www.dayanzai.me/after-effects-cc-2014.html)  
+
+[Lottie开源动画库介绍与使用示例](https://www.jianshu.com/p/9a2136ecbc7b)  

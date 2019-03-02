@@ -102,6 +102,8 @@ android {
 
 [Android App Bundle 官网](https://developer.android.com/platform/technology/app-bundle/)  
 
+[bundletool 使用 官网](https://developer.android.com/studio/command-line/bundletool)  
+
 [About Android App Bundles 官网](https://developer.android.com/guide/app-bundle/)  
 
 ```java
@@ -110,6 +112,39 @@ android {
 1.<fusing> element is missing the 'include' attribute  
 解决方案：https://stackoverflow.com/questions/50869694/android-app-bundle-build-error-fusing-element-is-missing-the-include-attrib  
 just add "dist:" 如：dist:include="false"
+
+
+
+bundle tool 常用命令(https://developer.android.com/studio/command-line/bundletool)：
+
+生成支持所有平台 apks 命令：
+
+java -jar D:/Repositories/bundletool/bundletool-all-0.8.0.jar build-apks --bundle=D:/Repositories/bundletool/app.aab --output=D:/Repositories/bundletool/NoxSecurity.apks --ks=D:/Repositories/NoxSecurity/xxxx.jks --ks-pass=pass:xxxx --ks-key-alias=xxxx --key-pass=pass:xxxx
+
+生成当前连接设备的 APK 集:
+ 
+java -jar D:/Repositories/bundletool/bundletool-all-0.8.0.jar build-apks --connected-device --bundle=D:/Repositories/bundletool/app.aab --output=D:/Repositories/bundletool/my_app.apks --ks=D:/Repositories/NoxSecurity/xxxx.jks --ks-pass=pass:xxxx --ks-key-alias=xxxx --key-pass=pass:xxxx
+
+根据JSON文件生成对应的 APK 集:
+
+java -jar D:/Repositories/bundletool/bundletool-all-0.8.0.jar extract-apks --apks=D:/Repositories/bundletool/my_app.apks --output-dir=D:/Repositories/bundletool --device-spec=D:/Repositories/bundletool/test.json
+
+测量APK集中APK的估计下载大小
+
+java -jar bundletool-all-0.8.0.jar get-size total --apks=my_app.apks
+
+安装 apks 命令：
+
+java -jar D:/Repositories/bundletool/bundletool-all-0.8.0.jar install-apks --apks=D:/Repositories/bundletool/NoxSecurity.apks
+
+获取当前手机信息：
+adb shell
+
+getprop
+
+获取 abi 信息： getprop |grep abi
+获取 screenDensity 信息： getprop |grep dens
+获取 sdkVersion 信息： getprop |grep version.sdk
 
 
 ````

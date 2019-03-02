@@ -278,4 +278,38 @@ API >= 26(8.0) 系统将会限制 TYPE_TOAST 的使用，会直接抛出异常�
 
 [AndroidX Overview 官网](https://developer.android.com/jetpack/androidx/)  
 
-[Migrating to AndroidX](https://developer.android.com/jetpack/androidx/migrate)  
+[原包转换为androidx（Migrating to AndroidX）](https://developer.android.com/jetpack/androidx/migrate)  
+
+
+
+
+### 13 Notification 监听 ###
+
+[NotificationListenerService的那些事儿](https://www.jianshu.com/p/981e7de2c7be)  
+
+[NotificationListenerService不能监听到通知，研究了一天不知道是什么原因？](https://www.zhihu.com/question/33540416)  
+
+[NotificationCollectorMonitorService.java](https://gist.github.com/xinghui/b2ddd8cffe55c4b62f5d8846d5545bf9)  
+
+[一次 NotificationListenerService 体验](https://blog.csdn.net/u013836857/article/details/82732906)  
+
+[Android利用NotificationListenerService实现消息盒子功能](https://blog.csdn.net/Vanswells/article/details/81033280)  
+
+
+#### 13.1 通知栏适配 ####
+
+[Android通知栏介绍与适配总结](https://iluhcm.com/2017/03/12/experience-of-adapting-to-android-notifications/)  
+
+[Android推送通知权限判断及跳转到权限设置界面(完善兼容8.0)](https://zhuanlan.zhihu.com/p/46313532)  
+
+[android 8.0 获取通知栏开关状态](https://www.jianshu.com/p/28b8c0391c8d)  
+
+
+
+
+
+
+
+
+
+
